@@ -28,7 +28,7 @@ Don't Update macOS unless you've update Opencore, The Drivers and the Config.pli
 
 Keep a local backup of your EFI and don't modify the config.plist with Opencore Configurator (it can break the EFI and make macOS unbootable).
 
-Don't use Clover Configurator too (It will add Clover Specifics Things to the config.plist and can break the EFI too.
+Don't use Clover Configurator too (It will add Clover Specifics Things to the config.plist and can break the EFI too).
 
 ### 3
 
