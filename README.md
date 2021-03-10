@@ -41,7 +41,7 @@ Windows can also thinks that you're using Windows on a real Mac using Bootcamp d
 ## Setup
 | Parts       | Model                               |
 |-------------|-------------------------------------|
-| OS          | macOS Big Sur 11.1 (20C69)          |
+| OS          | macOS Big Sur 11.2.3 (20D91)        |
 | Bootloader  | Opencore 0.6.7                      |
 | Motherboard | MSI GAMING PRO CARBON B250          |
 | Processor   | Intel Core i5-7400 @3.0Ghz          |
