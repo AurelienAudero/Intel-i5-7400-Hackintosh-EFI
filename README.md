@@ -63,7 +63,7 @@ Windows can also thinks that you're using Windows on a real Mac using Bootcamp d
 | FaceTime              | Not Tested but requires you own SMBIOS                                                                                 |
 | Mac AppStore          | Working but requires your own SMBIOS                                                                                   |
 | Wi-Fi                 | Not Tested but non present on the motherboard by default                                                               |
-| Bluetooth             | Not Tested but non present on the motherboard by default                                                               |
+| Bluetooth             | Working but non present on the motherboard by default (TPLink UB400 USB Adapter used)                                  |
 
 ## SMBIOS
 
