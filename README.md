@@ -92,7 +92,7 @@ It will now show Windows in the bootloader. You this method at your own risk [as
 
 ## Fix Clock in Windows
 
-When you're dualbooting and Linux-based Operating System or a macOS System with Windows, it can have break the clock in Windows.
+When you're dualbooting a Linux-based Operating System or a macOS System with Windows, it can break the clock in Windows.
 
 To fix that, you can modify a registry key in Windows Registry.
 
