@@ -2,13 +2,15 @@
 
 This is an EFI Folder optimized for the setup specified below, you can use it for you Hackintosh.
 
-It uses Opencore 0.6.7 as bootloader.
+It uses Opencore 0.6.8 as bootloader.
 
 When you're first booting to this EFI Folder, you automatically agree to [The Terms and Conditions of Uses](https://github.com/AurelienAudero/i5-7400-EFI-by-Aure/LICENSE.md).
 
 **FOLLOW THE INSTRUCTIONS BELOW THE SCREENSHOTS BEFORE BOOTING !**
 
 ## Screenshots
+
+(The system and the bootloader versions has been updated since the screenshots have been taked)
 
 ![Global-View-of-System](/Images/Global-View-of-System.png)
 
@@ -42,7 +44,7 @@ Windows can also thinks that you're using Windows on a real Mac using Bootcamp d
 | Parts       | Model                               |
 |-------------|-------------------------------------|
 | OS          | macOS Big Sur 11.2.3 (20D91)        |
-| Bootloader  | Opencore 0.6.7                      |
+| Bootloader  | Opencore 0.6.8                      |
 | Motherboard | MSI GAMING PRO CARBON B250          |
 | Processor   | Intel Core i5-7400 @3.0Ghz          |
 | GPU         | Intel HD Graphics 630               |
