@@ -4,7 +4,7 @@ This is an EFI Folder optimized for the setup specified below, you can use it fo
 
 It uses Opencore 0.6.8 as bootloader.
 
-When you're first booting to this EFI Folder, you automatically agree to [The Terms and Conditions of Uses](https://github.com/AurelienAudero/i5-7400-EFI-by-Aure/LICENSE.md).
+When you're first booting to this EFI Folder, you automatically agree to [The Terms and Conditions of Uses](https://github.com/AurelienAudero/i5-7400-EFI-by-Aure/LICENSE).
 
 **FOLLOW THE INSTRUCTIONS BELOW THE SCREENSHOTS BEFORE BOOTING !**
 
@@ -43,13 +43,13 @@ Windows can also thinks that you're using Windows on a real Mac using Bootcamp d
 ## Setup
 | Parts       | Model                               |
 |-------------|-------------------------------------|
-| OS          | macOS Big Sur 11.2.3 (20D91)        |
+| OS          | macOS Big Sur 11.3 (20E232)         |
 | Bootloader  | Opencore 0.6.8                      |
 | Motherboard | MSI GAMING PRO CARBON B250          |
 | Processor   | Intel Core i5-7400 @3.0Ghz          |
 | GPU         | Intel HD Graphics 630               |
 | RAM         | 1x 8Go 2400MHz DDR4                 |
-| Hard Drive  | Western Digital HDD Caviar Blue 1TB |
+| Hard Drive  | Kingston A400 SSD 120Go             |
 
 ## What's works
 
