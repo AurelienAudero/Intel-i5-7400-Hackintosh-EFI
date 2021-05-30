@@ -4,7 +4,7 @@ This is an EFI Folder optimized for the setup specified below, you can use it fo
 
 It uses Opencore 0.6.8 as bootloader.
 
-When you're first booting to this EFI Folder, you automatically agree to [The Terms and Conditions of Uses](https://github.com/AurelienAudero/i5-7400-EFI-by-Aure/LICENSE).
+When you're first booting to this EFI Folder, you automatically agree to [The Terms and Conditions of Uses](https://github.com/AurelienAudero/i5-7400-EFI-by-Aure/blob/master/LICENSE).
 
 **FOLLOW THE INSTRUCTIONS BELOW THE SCREENSHOTS BEFORE BOOTING !**
 
