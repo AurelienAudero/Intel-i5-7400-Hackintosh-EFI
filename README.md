@@ -53,19 +53,19 @@ Windows can also thinks that you're using Windows on a real Mac using Bootcamp d
 
 ## What's works
 
-| Service               | State                                                                                                                  |
-|-----------------------|------------------------------------------------------------------------------------------------------------------------|
-| OS in General         | Working                                                                                                                |
-| Dark Mode             | Working                                                                                                                |
-| Windows Dualboot      | Unstable ! Requires [config.plist edition](https://github.com/AurelienAudero/i5-7400-EFI-by-Aure#windows-dual-boot)    |
-| iGPU (HD 630)         | Working                                                                                                                |
-| Graphics Acceleration | Working                                                                                                                |
-| iCloud                | Working but requires your own SMBIOS                                                                                   |
-| iMessage              | Not Tested but requires your own SMBIOS                                                                                |
-| FaceTime              | Not Tested but requires you own SMBIOS                                                                                 |
-| Mac AppStore          | Working but requires your own SMBIOS                                                                                   |
-| Wi-Fi                 | Not Tested but non present on the motherboard by default                                                               |
-| Bluetooth             | Working but non present on the motherboard by default (TPLink UB400 USB Adapter used)                                  |
+| Service               | State                                                                                                                        |
+|-----------------------|------------------------------------------------------------------------------------------------------------------------------|
+| OS in General         | Working                                                                                                                      |
+| Dark Mode             | Working                                                                                                                      |
+| Windows Dualboot      | Unstable ! Requires [config.plist edition](https://github.com/AurelienAudero/i5-7400-EFI-by-Aure#windows-dual-boot)          |
+| iGPU (HD 630)         | Working (In some cases, if you use 2 or more monitors, you may get a bug, [Learn More about here](https://github.com/AurelienAudero/i5-7400-EFI-by-Aure/issues/2))|
+| Graphics Acceleration | Working                                                                                                                      |
+| iCloud                | Working but requires your own SMBIOS                                                                                         |
+| iMessage              | Not Tested but requires your own SMBIOS                                                                                      |
+| FaceTime              | Not Tested but requires you own SMBIOS                                                                                       |
+| Mac AppStore          | Working but requires your own SMBIOS                                                                                         |
+| Wi-Fi                 | Not Tested but non present on the motherboard by default                                                                     |
+| Bluetooth             | Working but non present on the motherboard by default (TPLink UB400 USB Adapter used)                                        |
 
 ## SMBIOS
 
