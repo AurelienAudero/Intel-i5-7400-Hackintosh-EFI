@@ -2,21 +2,21 @@
 
 This is an EFI Folder optimized for the setup specified below, you can use it for you Hackintosh.
 
-It uses Opencore 0.6.8 as bootloader.
+It uses Clover as bootloader.
+
+**⚠️ FOLLOW THE INSTRUCTIONS AT [CONFIGURATION CHAPTER](https://github.com/AurelienAudero/i5-7400-EFI-by-Aure#configuration) BEFORE BOOTING ⚠️**
+
+## Why i switched from Opencore to Clover
+
+Clover provide more stability than Opencore for this system, Clover is a lot more user-friendly too and it's easier for you to create your EFI based on this one ([Legal details about creating your own EFI based on this one](https://github.com/AurelienAudero/i5-7400-EFI-by-Aure/blob/master/Share-LICENSE.md)).
+
+With Clover, you can modify EFI using Clover Configurator with less risks of breaking a thing and FINALLY boot to Windows WITHOUT ANY PROBLEMS 🎉
 
 When you're first booting to this EFI Folder, you automatically agree to [The Terms and Conditions of Uses](https://github.com/AurelienAudero/i5-7400-EFI-by-Aure/blob/master/LICENSE).
 
-**FOLLOW THE INSTRUCTIONS BELOW THE SCREENSHOTS BEFORE BOOTING !**
-
 ## Screenshots
 
-(The system and the bootloader versions has been updated since the screenshots have been taked)
-
-![Global-View-of-System](/Images/Global-View-of-System.png)
-
 ![About-This-Mac](/Images/About-This-Mac.png)
-
-![System-Report-USB](/Images/System-Report-USB.png)
 
 ![System-Report-Displays](/Images/System-Report-Displays.png)
 
@@ -24,27 +24,17 @@ When you're first booting to this EFI Folder, you automatically agree to [The Te
 
 ### 1
 
-Don't Update macOS unless you've update Opencore, The Drivers and the Config.plist by your own or you use an updated version of this EFI that is compatible with the version to the which one you want to update.
+Don't Update macOS unless you've update Clover, the drivers and the kexts by your own or you use an updated version of this EFI that is compatible with the version to the which one you want to update.
 
 ### 2
 
-Keep a local backup of your EFI and don't modify the config.plist with Opencore Configurator (it can break the EFI and make macOS unbootable).
-
-Don't use Clover Configurator too (It will add Clover Specifics Things to the config.plist and can break the EFI too).
-
-### 3
-
-If you boot Windows from Opencore, do this at your own risks !
-
-It can cause blue screens (BSOD), can make Windows unstable or make Windows unbootable.
-
-Windows can also thinks that you're using Windows on a real Mac using Bootcamp due to Opencore that injects SSDTs in Windows while booting with it.
+Keep a local backup of your EFI.
 
 ## Setup
 | Parts       | Model                               |
 |-------------|-------------------------------------|
-| OS          | macOS Big Sur 11.3 (20E232)         |
-| Bootloader  | Opencore 0.6.8                      |
+| OS          | macOS Monterey 12.0 Beta (21A5248p) |
+| Bootloader  | Clover Bootloader r5137             |
 | Motherboard | MSI GAMING PRO CARBON B250          |
 | Processor   | Intel Core i5-7400 @3.0Ghz          |
 | GPU         | Intel HD Graphics 630               |
@@ -57,40 +47,52 @@ Windows can also thinks that you're using Windows on a real Mac using Bootcamp d
 |-----------------------|------------------------------------------------------------------------------------------------------------------------------|
 | OS in General         | Working                                                                                                                      |
 | Dark Mode             | Working                                                                                                                      |
-| Windows Dualboot      | Unstable ! Requires [config.plist edition](https://github.com/AurelienAudero/i5-7400-EFI-by-Aure#windows-dual-boot)          |
+| Windows Dualboot      | Working                                                                                                                      |
 | iGPU (HD 630)         | Working (In some cases, if you use 2 or more monitors, you may get a bug, [Learn More about here](https://github.com/AurelienAudero/i5-7400-EFI-by-Aure/issues/2))|
 | Graphics Acceleration | Working                                                                                                                      |
 | iCloud                | Working but requires your own SMBIOS                                                                                         |
-| iMessage              | Not Tested but requires your own SMBIOS                                                                                      |
-| FaceTime              | Not Tested but requires you own SMBIOS                                                                                       |
+| iMessage              | Working but requires your own SMBIOS                                                                                         |
+| FaceTime              | Working but requires you own SMBIOS                                                                                          |
 | Mac AppStore          | Working but requires your own SMBIOS                                                                                         |
 | Wi-Fi                 | Not Tested but non present on the motherboard by default                                                                     |
 | Bluetooth             | Working but non present on the motherboard by default (TPLink UB400 USB Adapter used)                                        |
 
-## SMBIOS
+## Configuration
 
-| Model    | Usage                                                                                                      |
-|----------|------------------------------------------------------------------------------------------------------------|
-| iMac18,1 | Use this for utilizing iGPU (HD 630) for Displaying                                                        |
-| iMac18,3 | Use this for utilizing dGPU (AMD or NVIDIA) for Displaying, GPU-Intensive Tasks and iGPU for Compute Tasks |
-
-For generate an SMBIOS, refer to the guide at [The Official Opencore Guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/kaby-lake.html#platforminfo) and follow the instructions in the blue rectangle.
-
-## Windows Dual-Boot
-
-### Method 1 (Low Risk, Recommanded)
-
-Tap on F11 on Startup to choose where to boot (Windows or macOS)
-
-### Method 2 (High Risk, Don't recommanded !)
-
-Change the boot order in your motherboard's BIOS/UEFI to boot first on Opencore.
-
-Now mount your EFI with Opencore configurator (But don't use it to modify your EFI !) and go to your EFI Folder > OC.
-
-Edit your "config.plist" with "TextEdit" or you're favorite text editor and search for "ScanPolicy" and change the value to "0".
-
-It will now show Windows in the bootloader. You this method at your own risk [as specified on top of this document](https://github.com/AurelienAudero/i5-7400-EFI-by-Aure#recommandation)
+1) Download the latest version of this EFI by clicking on [Releases](https://github.com/AurelienAudero/i5-7400-EFI-by-Aure/releases)
+2) Extract the downloaded archive
+3) Delete ALL the content in the extracted folder EXCEPT the folder named "EFI"
+4) Go to EFI -> CLOVER and Edit "config.plist" with a text editor (Default Windows Notepad, Visual Studio Code, Notepad++, ...)
+5) Go to the following page by clicking [HERE](https://github.com/corpnewt/GenSMBIOS)
+6) On the new opened page, click on the "⬇️ CODE" green button and click "Download ZIP"
+7) Exract the downloaded archive
+8) Run "GenSMBIOS.bat" with admin rights on Windows or simply double click on "GenSMBIOS.command" on macOS/Linux
+9) Press "1" and press "Enter" key and wait until you are back to the home screen
+10) Press "3" and press "Enter" key
+11) Type "MacPro7,1" (case-sensitive) and press "Enter" key
+12) You will get 4 lines like [this](https://github.com/AurelienAudero/i5-7400-EFI-by-Aure/blob/master/Images/GenSMBIOS-CopyPaste-Screen.png)
+13) Make a search with "CTRL + F" or "CMD + F"
+14) Type "{Serial}" in the Search field (case-sensitive)
+15) Copy what's show after "Serial: " in the Command Prompt/Terminal
+16) Replace {Serial} ("{}" included) with the content you copied
+17) Make another search with "CTRL + F" or "CMD + F"
+18) Type "{Board Serial}" in the Search field (case-sensitive)
+19) Copy what's show after "Board Serial: " in the Command Prompt/Terminal
+20) Replace {Board Serial} ("{}" included) with the content you copied
+21) Make a last search with "CTRL + F" or "CMD + F"
+22) Type "{SmUUID}" in the Search field (case-sensitive)
+23) Copy what's show after "SmUUID: " in the Command Prompt/Terminal
+24) Replace {SmUUID} ("{}" included) with the content you copied
+25) Save the "config.plist" file
+26) Go back to the Command Prompt/Terminal
+27) Press "Enter" key
+28) Press "Q" and "Enter key" again
+29) You can close the Command Prompt/Terminal window
+30) Mount the EFI of your USB (use Clover Configurator on macOS, search with Google for Windows or Linux)
+31) Delete the "EFI" of USB (⚠️ DON'T DO "Replace", DELETE AND COPY IT ⚠️)
+32) Copy the EFI that we made above on the USB Drive (where the old "EFI" Folder was)
+33) Eject the EFI Partition you mounted previously
+34) 🎉 YOU CAN NOW BOOT FROM YOUR USB
 
 ## Fix Clock in Windows
 
