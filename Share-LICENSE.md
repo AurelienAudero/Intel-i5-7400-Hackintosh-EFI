@@ -1,6 +1,6 @@
 ## Info about modification, distribution, ...
 
-This entire Github repository is under [this license](https://github.com/AurelienAudero/i5-7400-EFI-by-Aure/LICENSE)
+This entire Github repository is under [this license](https://github.com/AurelienAudero/i5-7400-EFI-by-Aure/blob/master/LICENSE)
 To SHARE this ORIGINAL repository (WITHOUT MODIFICATION), please provide the exact link below :
 https://github.com/AurelienAudero/i5-7400-EFI-by-Aure
 
@@ -16,6 +16,7 @@ To SHARE a MODIFIED version of this repository, you :
 ## License for Sharing
 
 You MUST COPY & PASTE ALL the content below this line
+
 And EDIT ONLY the PERMITTED FIELDS (with "{}")
 
 ---
@@ -49,6 +50,7 @@ To SHARE a MODIFIED version of this repository or a modification of [the origina
   - Are asked to make a fork of the original one by clicking on the "Fork" button on the top of any page of [this repository](https://github.com/AurelienAudero/i5-7400-EFI-by-Aure/) (NOT THIS REPOSITORY BUT THE LINKED ONE)
   - Are asked to post the modifications you made to the EFI to the new repository you created with this function above
   - MUST PROVIDE the license available to the "License for sharing" chapter at https://github.com/AurelienAudero/i5-7400-EFI-by-Aure/Share-LICENSE.md (WITHOUT ANY UNALLOWED MODIFICATIONS, ONLY modify the PERMITTED fields)
+  - MUST DELETE the "Share-LICENSE.md" file in the repository you made above
   - To share it, you are asked to present it in the following format (with all the following lines in the same font, size and color) :
     - Link to the Github repository (you made with the instructions above)
     - Link to the original Github repository, you MUST provide the exact following link (NO short link) "https://github.com/AurelienAudero/i5-7400-EFI-by-Aure"
