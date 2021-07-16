@@ -6,6 +6,8 @@ It uses Clover as bootloader.
 
 **⚠️ FOLLOW THE INSTRUCTIONS AT [CONFIGURATION CHAPTER](https://github.com/AurelienAudero/i5-7400-EFI-by-Aure#configuration) BEFORE BOOTING ⚠️**
 
+**⚠️ This EFI is INCOMPATIBLE with macOS Big Sur** *If you want to use it, you need to upgrade to macOS Monterey 12.0 Beta (21A5248p)*
+
 ## Why i switched from Opencore to Clover
 
 Clover provide more stability than Opencore for this system, Clover is a lot more user-friendly too and it's easier for you to create your EFI based on this one ([Legal details about creating your own EFI based on this one](https://github.com/AurelienAudero/i5-7400-EFI-by-Aure/blob/master/Share-LICENSE.md)).
