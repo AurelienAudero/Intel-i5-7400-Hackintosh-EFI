@@ -85,7 +85,7 @@ Si vous êtes sur Windows, exécutez "GenSMBIOS.bat".
 
 Si vous êtes sur macOS, exécutez "GenSMBIOS.command".
 
-**NOTE : ** Vous avez besoin d'avoir [la dernière version de Python](https://www.python.org/downloads/) installée pour utiliser ce programme.
+**NOTE : Vous avez besoin d'avoir [la dernière version de Python](https://www.python.org/downloads/) installée pour utiliser ce programme.**
 
 Une fois le programme ouvert, utilisez l'option 1 pour télécharger MacSerial.
 
@@ -125,7 +125,7 @@ Par exemple :
 
 **Rappelez vous de regarder sur [Apple Check Coverage](https://checkcoverage.apple.com/) and vous devez avoir un message comme : "Invalid Serial" or "Purshase Date not Validated". Si cela n'est pas le cas, vous devez regénérer d'autres numéros.
 
-**NOTE : ** Vous et vous seul êtes responsable de votre identifiant Apple, lisez attentivement le guide et assumez l'entière responsabilité si vous vous trompez. Dortania, moi et tous les autres guides ne pourront pas être tenus responsables de ce que vous faites.
+**NOTE : Vous et vous seul êtes responsable de votre identifiant Apple, lisez attentivement le guide et assumez l'entière responsabilité si vous vous trompez. Dortania, moi et tous les autres guides ne pourront pas être tenus responsables de ce que vous faites.**
 
 ## Crédits
 

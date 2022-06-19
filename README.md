@@ -56,7 +56,7 @@ Download [balenaEtcher](https://www.balena.io/etcher/) and the [macOS Monterey 1
 
 Open balenaEtcher, select the `.raw` image you downloaded earlier, select the USB you want to use and click "Flash".
 
-**NOTE : THIS WILL ERASE ALL THE DATA PRESENT ON YOUR USB**, i'm not responsible for any loss of data.
+**NOTE : THIS WILL ERASE ALL THE DATA PRESENT ON YOUR USB, i'm not responsible for any loss of data.**
 
 Once the flash is successfully completed, you will need to mount the EFI of your USB (search on Google if you need help).
 
@@ -85,7 +85,7 @@ If you're on Windows, execute "GenSMBIOS.bat".
 
 If you're on macOS, execute "GenSMBIOS.command".
 
-**NOTE : ** You need to have the [latest version of Python](https://www.python.org/downloads/) installed to run this program.
+**NOTE : You need to have the [latest version of Python](https://www.python.org/downloads/) installed to run this program.**
 
 Once the script is running, pick the option 1 for downloading MacSerial.
 
@@ -119,13 +119,13 @@ For Generic -> ROM, we use the MAC Address of the network interface, in all lowe
 
 For example :
 
-**MAC : ** `00:16:CB:00:11:22`
+**MAC :** `00:16:CB:00:11:22`
     
-**ROM : ** `0016cb001122`
+**ROM :** `0016cb001122`
 
 **Remember to look on [Apple Check Coverage](https://checkcoverage.apple.com/) and you want to get a message back like : "Invalid Serial" or "Purshase Date not Validated". If it's not the case, you need to regenerate another serial.
 
-**NOTE : ** You and you alone are responsible for your AppleID, read the guide carefully and take full responsibility if you screw up. Dortania, me and any other guides are not held accountable for what you do.
+**NOTE : You and you alone are responsible for your AppleID, read the guide carefully and take full responsibility if you screw up. Dortania, me and any other guides are not held accountable for what you do.**
 
 ## Credits
 
