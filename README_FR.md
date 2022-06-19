@@ -117,15 +117,15 @@ N'utilisez pas la partie `Apple ROM` !
 
 Pour Generic -> ROM, on utilise l'adresse MAC de l'interface réseau, en minuscules, et sans `:`
 
-Par exemple :
+**Par exemple :**
 
 **MAC : ** `00:16:CB:00:11:22`
     
 **ROM : ** `0016cb001122`
 
-**Rappelez vous de regarder sur [Apple Check Coverage](https://checkcoverage.apple.com/) and vous devez avoir un message comme : "Invalid Serial" or "Purshase Date not Validated". Si cela n'est pas le cas, vous devez regénérer d'autres numéros.
+**ℹ️ Rappelez vous de regarder sur [Apple Check Coverage](https://checkcoverage.apple.com/) and vous devez avoir un message comme : "Invalid Serial" or "Purshase Date not Validated". Si cela n'est pas le cas, vous devez regénérer d'autres numéros.**
 
-**NOTE : Vous et vous seul êtes responsable de votre identifiant Apple, lisez attentivement le guide et assumez l'entière responsabilité si vous vous trompez. Dortania, moi et tous les autres guides ne pourront pas être tenus responsables de ce que vous faites.**
+**NOTE : Vous et vous seul êtes responsable de votre Identifiant Apple, lisez attentivement le guide et assumez l'entière responsabilité si vous vous trompez. Dortania, moi et tous les autres guides ne pourront pas être tenus responsables de ce que vous faites.**
 
 ## Crédits
 
