@@ -38,7 +38,7 @@
 | DVI | Working at 1920x1080@60Hz |
 | Ethernet | Working |
 | iGPU | Working |
-| DRM | Working partially ([see more info](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/issues/))
+| DRM | Working partially ([see more info](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/issues/5))
 | Wi-Fi | Not Present on my configuration (may require extra setup)|
 | Bluetooth | Working |
 | USB | Working at maximum speed (USB 3.1/3.0/2.0) |
