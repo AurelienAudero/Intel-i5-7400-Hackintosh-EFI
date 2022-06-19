@@ -1,0 +1,59 @@
+name: Bug Report (English)
+description: I encounter a bug and I need help to resolve it
+title: "[Bug] Enter a title for this issue"
+labels: ["bug", "help wanted", "english"]
+assignees:
+  - AurelienAudero
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report
+  - type: textarea
+    id: configuration
+    attributes:
+      label: What is your configuration ?
+      description: Please specify at least the CPU, RAM, Hard Disk and GPU you are using
+      value: |
+        - CPU:
+        - RAM:
+        - Hard Disk:
+        - GPU:
+        - Additional infos:
+    validations:
+      required: true
+  - type: textarea
+    id: describe-the-bug
+    attributes :
+      label: Describe the Bug
+      description: A clear and concise description of the bug you encountered.
+      value: "A bug happened !"
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: How did you produce this bug ?
+      value: |
+        1. I boot to OpenCore
+        2. I select...
+    validations:
+      required: true
+  - type: textarea
+    id: anything-else
+    attributes:
+      label: Anything else ?
+      description: |
+        Links ? References ? Anything that will give us more context about the issue you are encountering
+        
+        Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
+      

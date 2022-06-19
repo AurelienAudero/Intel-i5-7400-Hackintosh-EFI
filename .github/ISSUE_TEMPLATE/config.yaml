@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation of this EFI
+    url: https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/blob/master/README.md
+    about: Check if you didn't miss a step during the setup
+  - name: GitHub Issues
+    url: https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/issues
+    about: Check to make sure there is not an issues already open that is related to your issue.

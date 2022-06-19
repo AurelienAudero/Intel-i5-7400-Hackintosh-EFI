@@ -1,0 +1,59 @@
+name: Bug Report (French)
+description: Je rencontre un bug et j'ai besoin d'aide pour le résoudre
+title: "[Bug] Entrer un titre pour cette issue"
+labels: ["bug", "help wanted", "french"]
+assignees:
+  - AurelienAudero
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de prendre le temps pour remplir ce rapport de bug
+  - type: textarea
+    id: configuration
+    attributes:
+      label: Quel est votre configuration ?
+      description: Veuillez préciser au moins le CPU, la RAM, le Disque Dur et le GPU que vous utilisez
+      value: |
+        - CPU :
+        - RAM :
+        - Disque Dur :
+        - GPU :
+        - Infos Additionnelles :
+    validations:
+      required: true
+  - type: textarea
+    id: decrivez-le-bug
+    attributes :
+      label: Décrivez le bug
+      description: Une description claire et concise du bug que vous avez rencontré.
+      value: "Un bug est arrivé !"
+    validations:
+      required: true
+  - type: textarea
+    id: etapes-pour-le-reproduire
+    attributes:
+      label: Étapes pour le reproduire
+      description: Comment avez-vous fait ce bug ?
+      value: |
+        1. Je boot sur OpenCore
+        2. Je sélectionne...
+    validations:
+      required: true
+  - type: textarea
+    id: autre-chose
+    attributes:
+      label: Autre chose ?
+      description: |
+        Liens ? Références ? Tout ce qui nous donnera plus de contexte sur le problème que vous rencontrez
+        
+        Tip: Vous pouvez joindre des images ou des fichiers log en cliquant sur cette zone pour la mettre en surbrillance, puis en faisant glisser des fichiers à l'intérieur de celle-ci
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code de Conduite
+      description: En soumettant ce problème, vous acceptez de suivre notre [Code de Conduct](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: J'accepte de suivre le code de conduite de ce projet
+          required: true
+      
