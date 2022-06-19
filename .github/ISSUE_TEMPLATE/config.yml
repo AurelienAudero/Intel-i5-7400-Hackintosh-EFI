@@ -1,4 +1,4 @@
-blank_issues_enabled: false
+blank_issues_enabled: true
 contact_links:
   - name: Documentation of this EFI
     url: https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/blob/master/README.md
