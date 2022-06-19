@@ -52,7 +52,7 @@ body:
     id: terms
     attributes:
       label: Code de Conduite
-      description: En soumettant ce problème, vous acceptez de suivre notre [Code de Conduct](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/blob/main/CODE_OF_CONDUCT.md)
+      description: En soumettant ce problème, vous acceptez de suivre notre [Code de Conduite](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/blob/main/CODE_OF_CONDUCT.md)
       options:
         - label: J'accepte de suivre le code de conduite de ce projet
           required: true

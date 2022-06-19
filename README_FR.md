@@ -38,7 +38,7 @@
 | DVI | Fonctionnel à 1920x1080@60Hz |
 | Ethernet | Fonctionnel |
 | iGPU | Fonctionnel |
-| DRM | Partiellement Fonctionnel ([Voir plus d'infos](https://github.com/AurelienAudero/i5-7400-EFI-by-Aure/issues/))
+| DRM | Partiellement Fonctionnel ([Voir plus d'infos](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/issues/))
 | Wi-Fi | Non présent sur ma configuration (peut nécessiter une configuration supplémentaire)|
 | Bluetooth | Fonctionnel |
 | USB | Fonctionnel à la vitesse maximale (USB 3.1/3.0/2.0) |
@@ -62,7 +62,7 @@ Une fois que le flash s'est terminé avec succès, vous devez monter l'EFI de vo
 
 Ouvrez l'EFI de votre clé USB et **supprimer tout** (la racine de l'EFI doit être vide).
 
-Maintenant, [télécharger cet EFI](https://github.com/AurelienAudero/i5-7400-EFI-by-Aure/releases/latest) et coller-le à la racine de la clé USB, cela doit ressembler à ça :
+Maintenant, [télécharger cet EFI](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/releases/latest) et coller-le à la racine de la clé USB, cela doit ressembler à ça :
 
 ![EFI-directory-Screenshot](/Images/EFI-directory-Screenshot.png)
 
@@ -137,3 +137,5 @@ Pour Generic -> ROM, on utilise l'adresse MAC de l'interface réseau, en minuscu
 ## Besoin d'aide ?
 
 Cliquez [ici](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/issues/new/choose) pour créer une issue sur GitHub.
+
+Si vous avez une question, vous pouvez la poser [ici](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/issues/new/choose)

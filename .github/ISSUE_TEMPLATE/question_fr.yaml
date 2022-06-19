@@ -1,0 +1,36 @@
+name: Question (French)
+description: J'ai une question à propos de cet EFI
+title: "[Question] Entrer un titre"
+labels: ["question", "french"]
+assignees:
+  - AurelienAudero
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de prendre le temps pour remplir ce formulaire
+  - type: textarea
+    id: question
+    attributes:
+      label: Quel est votre question ?
+      description: Une description claire et concise de votre question
+      value: "Taper ici"
+    validations:
+      required: true
+  - type: textarea
+    id: autre-chose
+    attributes:
+      label: Autre chose ?
+      description: |
+        Liens ? Références ? Tout ce qui nous donnera plus de contexte sur votre question
+        
+        Tip: Vous pouvez joindre des images ou des fichiers log en cliquant sur cette zone pour la mettre en surbrillance, puis en faisant glisser des fichiers à l'intérieur de celle-ci
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code de Conduite
+      description: En soumettant cette question, vous acceptez de suivre notre [Code de Conduite](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: J'accepte de suivre le code de conduite de ce projet
+          required: true
+      

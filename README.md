@@ -38,7 +38,7 @@
 | DVI | Working at 1920x1080@60Hz |
 | Ethernet | Working |
 | iGPU | Working |
-| DRM | Working partially ([see more info](https://github.com/AurelienAudero/i5-7400-EFI-by-Aure/issues/))
+| DRM | Working partially ([see more info](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/issues/))
 | Wi-Fi | Not Present on my configuration (may require extra setup)|
 | Bluetooth | Working |
 | USB | Working at maximum speed (USB 3.1/3.0/2.0) |
@@ -62,7 +62,7 @@ Once the flash is successfully completed, you will need to mount the EFI of your
 
 Open the EFI of your USB and **delete everything** (the root of the EFI should be blank).
 
-Now, [download this EFI](https://github.com/AurelienAudero/i5-7400-EFI-by-Aure/releases/latest) and paste the "EFI" folder at the root of the USB it should look like this :
+Now, [download this EFI](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/releases/latest) and paste the "EFI" folder at the root of the USB it should look like this :
 
 ![EFI-directory-Screenshot](/Images/EFI-directory-Screenshot.png)
 
@@ -137,3 +137,5 @@ For Generic -> ROM, we use the MAC Address of the network interface, in all lowe
 ## Need help ?
 
 Click [here](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/issues/new/choose) to create an issue on GitHub.
+
+If you have a question, you can create a thread [here](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/issues/new/choose)
