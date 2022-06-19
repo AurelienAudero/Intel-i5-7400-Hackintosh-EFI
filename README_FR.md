@@ -38,7 +38,7 @@
 | DVI | Fonctionnel à 1920x1080@60Hz |
 | Ethernet | Fonctionnel |
 | iGPU | Fonctionnel |
-| DRM | Partiellement Fonctionnel ([Voir plus d'infos](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/issues/))
+| DRM | Partiellement Fonctionnel ([Voir plus d'infos](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/issues/5))
 | Wi-Fi | Non présent sur ma configuration (peut nécessiter une configuration supplémentaire)|
 | Bluetooth | Fonctionnel |
 | USB | Fonctionnel à la vitesse maximale (USB 3.1/3.0/2.0) |
