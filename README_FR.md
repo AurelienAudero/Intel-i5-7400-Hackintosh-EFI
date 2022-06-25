@@ -23,6 +23,7 @@
 | -------------- | ------ |
 | Processeur | Intel Core i5-7400 |
 | Mémoire RAM | 16GB DDR4 2400MHz |
+| Carte Mère | MSI B250 Gaming Pro Carbon |
 | Disque Dur | Kingston SSD SATA 120GB |
 | Graphiques Intégrés | Intel HD Graphics 630 |
 | Moniteur 1 | Acer Nitro XV240Y 165Hz 1ms |
