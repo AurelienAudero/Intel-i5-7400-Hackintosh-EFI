@@ -79,6 +79,7 @@ To use this EFI, you will need to setup the SMIOS to match your configuration.
 | ----- | -------- |
 | iMac18,1 | Used for computers utilizing the iGPU for displaying |
 | iMac18,3 | Used for computers using a dGPU for displaying, and an iGPU for computing tasks only |
+| Macmini8,1 | Used for computers having issues with iMac18,1 and that are utilizing the iGPU for displaying |
 
 Download [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS/archive/refs/heads/master.zip) and extract it.
 
