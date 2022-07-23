@@ -43,6 +43,7 @@
 | Wi-Fi | Non présent sur ma configuration (peut nécessiter une configuration supplémentaire)|
 | Bluetooth | Fonctionnel |
 | USB | Fonctionnel à la vitesse maximale (USB 3.1/3.0/2.0) |
+| Sleep | Peut fonctionner selon votre configuration |
 | iCloud | Fonctionnel mais nécéssite votre propre SMBIOS |
 | iMessage | Fonctionnel mais nécéssite votre propre SMBIOS |
 | FaceTime | Fonctionnel mais nécéssite votre propre SMBIOS |
