@@ -43,7 +43,7 @@
 | Wi-Fi | Not Present on my configuration (may require extra setup) |
 | Bluetooth | Working |
 | USB | Working at maximum speed (USB 3.1/3.0/2.0) |
-| Sleep | It may work depending of your configuration ([see more info](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/issues/6)) |
+| Sleep | May work depending of your configuration |
 | iCloud | Working but requires your own SMBIOS |
 | iMessage | Working but requires your own SMBIOS |
 | FaceTime | Working but requires your own SMBIOS |
