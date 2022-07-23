@@ -53,7 +53,7 @@
 
 ### Créer la clé USB d'installation
 
-Télécharger [balenaEtcher](https://www.balena.io/etcher/) et [l'image de macOS Monterey 12.4](https://43dmj0-my.sharepoint.com/personal/roxor-007_43dmj0_onmicrosoft_com/Documents/OnedriveXbot/Olarila%20Monterey%2012.4.raw?ga=1).
+Télécharger [balenaEtcher](https://www.balena.io/etcher/) et [l'image de macOS Monterey 12.5](https://www.mediafire.com/file/3a06ji4i9i3gs9d/Olarila+Monterey+12.5.raw/file) (⚠️ Il est recommandé d'utiliser un bloqueur de pub ⚠️).
 
 Ouvrez balenaEtcher, sélectionnez l'image `.raw` téléchargée plus tôt, sélectionnez la clé USB que vous souhaitez utiliser et cliquez sur "Flash".
 
@@ -130,10 +130,9 @@ Pour Generic -> ROM, on utilise l'adresse MAC de l'interface réseau, en minuscu
 ## Crédits
 
 - Merci à [Apple](https://apple.com) pour [macOS](https://www.apple.com/macos/)
-- Merci à [Dortania](https://github.com/dortania) pour [OpenCore Bootloader](https://dortania.github.io/)
-- Merci à [Acidanthera](https://github.com/acidanthera) pour fournir [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup), [Apple ALC](https://github.com/acidanthera/AppleALC), [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM/releases/tag/2.6.2), [CPUFriend](https://github.com/acidanthera/CPUFriend), [IntelMausi](https://github.com/acidanthera/IntelMausi), [Lilu](https://github.com/acidanthera/Lilu), [VirtualSMC](https://github.com/acidanthera/VirtualSMC), [WhateverGreen](https://github.com/acidanthera/WhateverGreen)
-- Merci à [RehabMan](https://github.com/RehabMan) pour fournir [USBInjectAll](https://github.com/RehabMan/OS-X-USB-Inject-All)
-- Merci à [Olarila](https://www.olarila.com) pour fournir [l'image de macOS Monterey 12.4](https://43dmj0-my.sharepoint.com/personal/roxor-007_43dmj0_onmicrosoft_com/Documents/OnedriveXbot/Olarila%20Monterey%2012.4.raw?ga=1)
+- Merci à [Dortania](https://github.com/dortania) pour [OpenCore Bootloader](https://dortania.github.io/) et pour fournir [CtlnaAHCIPort](https://github.com/dortania/OpenCore-Install-Guide/blob/master/extra-files/CtlnaAHCIPort.kext.zip)
+- Merci à [Acidanthera](https://github.com/acidanthera) pour fournir [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup), [Apple ALC](https://github.com/acidanthera/AppleALC), [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM/releases/tag/2.6.2), [CPUFriend](https://github.com/acidanthera/CPUFriend), [CpuTscSync](https://github.com/acidanthera/CpuTscSync), [IntelMausi](https://github.com/acidanthera/IntelMausi), [Lilu](https://github.com/acidanthera/Lilu), [VirtualSMC](https://github.com/acidanthera/VirtualSMC), [WhateverGreen](https://github.com/acidanthera/WhateverGreen)
+- Merci à [Olarila](https://www.olarila.com) pour fournir [l'image de macOS Monterey 12.5](https://www.mediafire.com/file/3a06ji4i9i3gs9d/Olarila+Monterey+12.5.raw/file)
 - Merci à [Aurélien Audero](https://github.com/AurelienAudero) pour la conception de [Intel i5-7400 Hackintosh EFI](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI)
 
 ## Besoin d'aide ?
