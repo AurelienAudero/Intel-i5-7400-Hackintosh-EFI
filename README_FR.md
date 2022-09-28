@@ -108,17 +108,17 @@ SmUUID:       75609BAC-B4BF-4DC0-8D98-E09177474DB8
 Apple ROM:    90B21FCE4687
 ```
 
-La partie `Type` doit être copiée dans Generic -> SystemProductName.
+La partie `Type` doit être copiée dans `Generic -> SystemProductName`.
 
-La partie `Serial` doit être copiée dans Generic -> SystemSerialNumber.
+La partie `Serial` doit être copiée dans `Generic -> SystemSerialNumber`.
 
-La partie `Board Serial` doit être copiée dans Generic -> MLB.
+La partie `Board Serial` doit être copiée dans `Generic -> MLB`.
 
-La partie `SmUUID` doit être copiée dans Generic -> SystemUUID.
+La partie `SmUUID` doit être copiée dans `Generic -> SystemUUID`.
 
 N'utilisez pas la partie `Apple ROM` !
 
-Pour Generic -> ROM, on utilise l'adresse MAC de l'interface réseau, en minuscules, et sans `:`
+Pour `Generic -> ROM`, on utilise l'adresse MAC de l'interface réseau, en minuscules, et sans `:`
 
 **Par exemple :**
 - **MAC :** `00:16:CB:00:11:22`
@@ -126,7 +126,9 @@ Pour Generic -> ROM, on utilise l'adresse MAC de l'interface réseau, en minuscu
 
 **ℹ️ Rappelez vous de regarder sur [Apple Check Coverage](https://checkcoverage.apple.com/) and vous devez avoir un message comme : "Invalid Serial" or "Purshase Date not Validated". Si cela n'est pas le cas, vous devez regénérer d'autres numéros.**
 
-**NOTE : Vous et vous seul êtes responsable de votre Identifiant Apple, lisez attentivement le guide et assumez l'entière responsabilité si vous vous trompez. Dortania, moi et tous les autres guides ne pourront pas être tenus responsables de ce que vous faites.**
+**ℹ️ Si vous choissisez `Macmini8,1` comme SMBIOS, il est recommandé de changer la valeur dans `Misc -> Security -> SecureBootModel` à `j174` dans le config.plist**
+
+**⚠️ NOTE : Vous et vous seul êtes responsable de votre Identifiant Apple, lisez attentivement le guide et assumez l'entière responsabilité si vous vous trompez. Dortania, moi et tous les autres guides ne pourront pas être tenus responsables de ce que vous faites.**
 
 ## Crédits
 
