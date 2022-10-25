@@ -54,17 +54,17 @@
 
 ### Créer la clé USB d'installation
 
-Télécharger [balenaEtcher](https://www.balena.io/etcher/) et [l'image de macOS Monterey 12.5](https://www.mediafire.com/file/3a06ji4i9i3gs9d/Olarila+Monterey+12.5.raw/file) (⚠️ Il est recommandé d'utiliser un bloqueur de pub ⚠️).
+Télécharger [balenaEtcher](https://www.balena.io/etcher/) et [l'image de macOS Ventura 13.0](https://www.mediafire.com/file/h4b95ayw359163w/Olarila+Ventura.raw/file) (⚠️ Il est recommandé d'utiliser un bloqueur de pub ⚠️).
 
 Ouvrez balenaEtcher, sélectionnez l'image `.raw` téléchargée plus tôt, sélectionnez la clé USB que vous souhaitez utiliser et cliquez sur "Flash".
 
-**NOTE : CELA VA EFFACER TOUT LE CONTENUE SUR VOTRE CLÉ USB, je ne suis pas responsable de toute perte de données.**
+**NOTE : CELA VA EFFACER TOUT LE CONTENUE SUR VOTRE CLÉ USB, veuillez sauvegarder vos données importantes !**
 
 Une fois que le flash s'est terminé avec succès, vous devez monter l'EFI de votre clé USB (chercher sur Google si vous avez besoin d'aide).
 
 Ouvrez l'EFI de votre clé USB et **supprimer tout** (la racine de l'EFI doit être vide).
 
-Maintenant, [télécharger cet EFI](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/releases/latest) et coller-le à la racine de la clé USB, cela doit ressembler à ça :
+Maintenant, [télécharger la dernière version de cet EFI](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/releases/latest) et coller-le à la racine de la clé USB, cela doit ressembler à ça :
 
 ![EFI-directory-Screenshot](/Images/EFI-directory-Screenshot.png)
 
