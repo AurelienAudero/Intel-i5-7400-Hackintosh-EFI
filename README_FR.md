@@ -58,7 +58,7 @@ Télécharger [balenaEtcher](https://www.balena.io/etcher/) et [l'image de macOS
 
 Ouvrez balenaEtcher, sélectionnez l'image `.raw` téléchargée plus tôt, sélectionnez la clé USB que vous souhaitez utiliser et cliquez sur "Flash".
 
-**NOTE : CELA VA EFFACER TOUT LE CONTENUE SUR VOTRE CLÉ USB, veuillez sauvegarder vos données importantes !**
+**NOTE : CELA VA EFFACER TOUT LE CONTENUE SUR VOTRE CLÉ USB, VEUILLEZ SAUVERGARDER VOS DONNÉES IMPORTANTES !**
 
 Une fois que le flash s'est terminé avec succès, vous devez monter l'EFI de votre clé USB (chercher sur Google si vous avez besoin d'aide).
 
