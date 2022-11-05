@@ -133,8 +133,8 @@ For `Generic -> ROM`, we use the MAC Address of the network interface, in all lo
 
 - Thanks to [Apple](https://apple.com) for [macOS](https://www.apple.com/macos/)
 - Thanks to [Dortania](https://github.com/dortania) for [OpenCore Bootloader](https://dortania.github.io/) and for providing [CtlnaAHCIPort](https://github.com/dortania/OpenCore-Install-Guide/blob/master/extra-files/CtlnaAHCIPort.kext.zip)
-- Thanks to [Acidanthera](https://github.com/acidanthera) for providing [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup), [Apple ALC](https://github.com/acidanthera/AppleALC), [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM/releases/tag/2.6.2), [CPUFriend](https://github.com/acidanthera/CPUFriend), [CpuTscSync](https://github.com/acidanthera/CpuTscSync), [IntelMausi](https://github.com/acidanthera/IntelMausi), [Lilu](https://github.com/acidanthera/Lilu), [VirtualSMC](https://github.com/acidanthera/VirtualSMC), [WhateverGreen](https://github.com/acidanthera/WhateverGreen)
-- Thanks to [Olarila](https://www.olarila.com) for providing the [macOS Monterey 12.5 Image](https://www.mediafire.com/file/3a06ji4i9i3gs9d/Olarila+Monterey+12.5.raw/file)
+- Thanks to [Acidanthera](https://github.com/acidanthera) for providing [Apple ALC](https://github.com/acidanthera/AppleALC), [CPUFriend](https://github.com/acidanthera/CPUFriend), [CpuTscSync](https://github.com/acidanthera/CpuTscSync), [FeatureUnlock](https://github.com/acidanthera/FeatureUnlock), [IntelMausi](https://github.com/acidanthera/IntelMausi), [Lilu](https://github.com/acidanthera/Lilu), [VirtualSMC](https://github.com/acidanthera/VirtualSMC) and [WhateverGreen](https://github.com/acidanthera/WhateverGreen)
+- Thanks to [Olarila](https://www.olarila.com) for providing the [macOS Ventura 13.0 Image](https://www.mediafire.com/file/h4b95ayw359163w/Olarila+Ventura.raw/file)
 - Thanks to [Aurélien Audero](https://github.com/AurelienAudero) for building the [Intel i5-7400 Hackintosh EFI](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI)
 
 ## Need help ?

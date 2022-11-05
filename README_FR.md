@@ -133,8 +133,8 @@ Pour `Generic -> ROM`, on utilise l'adresse MAC de l'interface réseau, en minus
 
 - Merci à [Apple](https://apple.com) pour [macOS](https://www.apple.com/macos/)
 - Merci à [Dortania](https://github.com/dortania) pour [OpenCore Bootloader](https://dortania.github.io/) et pour fournir [CtlnaAHCIPort](https://github.com/dortania/OpenCore-Install-Guide/blob/master/extra-files/CtlnaAHCIPort.kext.zip)
-- Merci à [Acidanthera](https://github.com/acidanthera) pour fournir [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup), [Apple ALC](https://github.com/acidanthera/AppleALC), [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM/releases/tag/2.6.2), [CPUFriend](https://github.com/acidanthera/CPUFriend), [CpuTscSync](https://github.com/acidanthera/CpuTscSync), [IntelMausi](https://github.com/acidanthera/IntelMausi), [Lilu](https://github.com/acidanthera/Lilu), [VirtualSMC](https://github.com/acidanthera/VirtualSMC), [WhateverGreen](https://github.com/acidanthera/WhateverGreen)
-- Merci à [Olarila](https://www.olarila.com) pour fournir [l'image de macOS Monterey 12.5](https://www.mediafire.com/file/3a06ji4i9i3gs9d/Olarila+Monterey+12.5.raw/file)
+- Merci à [Acidanthera](https://github.com/acidanthera) pour fournir [Apple ALC](https://github.com/acidanthera/AppleALC), [CPUFriend](https://github.com/acidanthera/CPUFriend), [CpuTscSync](https://github.com/acidanthera/CpuTscSync), [FeatureUnlock](https://github.com/acidanthera/FeatureUnlock), [IntelMausi](https://github.com/acidanthera/IntelMausi), [Lilu](https://github.com/acidanthera/Lilu), [VirtualSMC](https://github.com/acidanthera/VirtualSMC) et [WhateverGreen](https://github.com/acidanthera/WhateverGreen)
+- Merci à [Olarila](https://www.olarila.com) pour fournir [l'image de macOS Ventura 13.0](https://www.mediafire.com/file/h4b95ayw359163w/Olarila+Ventura.raw/file)
 - Merci à [Aurélien Audero](https://github.com/AurelienAudero) pour la conception de [Intel i5-7400 Hackintosh EFI](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI)
 
 ## Besoin d'aide ?
