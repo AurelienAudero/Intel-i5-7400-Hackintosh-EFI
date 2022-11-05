@@ -26,7 +26,7 @@
 | Motherboard | MSI B250 Gaming Pro Carbon |
 | Hard Disk | Kingston SSD SATA 120GB |
 | Integrated Graphics | Intel HD Graphics 630 |
-| Wi-Fi / Bluetooth Card | Broadcom BCM94360plus |
+| Wi-Fi and Bluetooth Card | Broadcom BCM94360plus |
 | Monitor 1 | Acer Nitro XV240Y 165Hz 1ms |
 | Monitor 2 | iiyama ProLite XB2483HSU |
 | CD/DVD | LG GH24NSD DVD-RW |
