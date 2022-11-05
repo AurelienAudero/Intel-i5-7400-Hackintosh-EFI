@@ -26,9 +26,9 @@
 | Carte Mère | MSI B250 Gaming Pro Carbon |
 | Disque Dur | Kingston SSD SATA 120GB |
 | Graphiques Intégrés | Intel HD Graphics 630 |
+| Carte Wi-Fi et Bluetooth | Broadcom BCM94360plus |
 | Moniteur 1 | Acer Nitro XV240Y 165Hz 1ms |
 | Moniteur 2 | iiyama ProLite XB2483HSU |
-| Bluetooth | TP-Link UB400 (Bluetooth 4.0 USB Dongle) |
 | CD/DVD | LG GH24NSD DVD-RW |
 
 ## Qu'est-ce qui fonctionne ?
@@ -37,18 +37,17 @@
 | ------- | ---- |
 | HDMI | Fonctionnel à 1920x1080@120Hz |
 | DVI | Fonctionnel à 1920x1080@60Hz |
-| Ethernet | Fonctionnel |
+| Ethernet | Fonctionnel à pleine vitesse |
 | iGPU | Fonctionnel |
 | DRM | Partiellement Fonctionnel ([Voir plus d'infos](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/issues/5))
-| Wi-Fi | Non présent sur ma configuration (peut nécessiter une configuration supplémentaire)|
+| Wi-Fi | Fonctionnel à pleine vitesse |
 | Bluetooth | Fonctionnel |
-| USB | Fonctionnel à la vitesse maximale (USB 3.1/3.0/2.0) |
+| USB | Fonctionnel à pleine vitesse (jusqu'à USB 3.1) |
 | Sleep | Peut fonctionner selon votre configuration |
-| iCloud | Fonctionnel mais nécéssite votre propre SMBIOS |
-| iMessage | Fonctionnel mais nécéssite votre propre SMBIOS |
-| FaceTime | Fonctionnel mais nécéssite votre propre SMBIOS |
-| Mac App Store | Fonctionnel mais nécéssite votre propre SMBIOS |
-| Handoff | Non fonctionnel (le Wi-Fi est nécéssaire et je n'en ai pas) |
+| iCloud | Fonctionnel |
+| iMessage et FaceTime | Fonctionnel |
+| Handoff et Continuité | Fonctionnel |
+| Mac App Store | Fonctionnel |
 
 ## Installation
 
