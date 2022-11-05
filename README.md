@@ -26,9 +26,9 @@
 | Motherboard | MSI B250 Gaming Pro Carbon |
 | Hard Disk | Kingston SSD SATA 120GB |
 | Integrated Graphics | Intel HD Graphics 630 |
+| Wi-Fi / Bluetooth Card | Broadcom BCM94360plus |
 | Monitor 1 | Acer Nitro XV240Y 165Hz 1ms |
 | Monitor 2 | iiyama ProLite XB2483HSU |
-| Bluetooth | TP-Link UB400 (Bluetooth 4.0 USB Dongle) |
 | CD/DVD | LG GH24NSD DVD-RW |
 
 ## What work ?
@@ -37,18 +37,17 @@
 | ------- | ----- |
 | HDMI | Working at 1920x1080@120Hz |
 | DVI | Working at 1920x1080@60Hz |
-| Ethernet | Working |
+| Ethernet | Working at full speed |
 | iGPU | Working |
 | DRM | Working partially ([see more info](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/issues/5)) |
-| Wi-Fi | Not Present on my configuration (may require extra setup) |
+| Wi-Fi | Working at full speed |
 | Bluetooth | Working |
-| USB | Working at maximum speed (USB 3.1/3.0/2.0) |
+| USB | Working at full speed (up to USB 3.1) |
 | Sleep | May work depending of your configuration |
-| iCloud | Working but requires your own SMBIOS |
-| iMessage | Working but requires your own SMBIOS |
-| FaceTime | Working but requires your own SMBIOS |
-| Mac App Store | Working but requires your own SMBIOS |
-| Handoff | Not working (Wi-Fi is needed and i don't have it) |
+| iCloud | Working |
+| iMessage and FaceTime | Working |
+| Handoff and Continuity | Working |
+| Mac App Store | Working |
 
 ## Installation
 
