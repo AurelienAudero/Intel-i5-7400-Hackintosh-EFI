@@ -123,7 +123,7 @@ For `Generic -> ROM`, we use the MAC Address of the network interface, in all lo
 - **MAC :** `00:16:CB:00:11:22`
 - **ROM :** `0016cb001122`
 
-**ℹ️ Remember to look on [Apple Check Coverage](https://checkcoverage.apple.com/) and you want to get a message back like : "Invalid Serial" or "Purshase Date not Validated". If it's not the case, you need to regenerate another serial.**
+**ℹ️ Remember to look on [Apple Check Coverage](https://checkcoverage.apple.com/) and you want to get this message back : "We’re sorry, we’re unable to check coverage for this serial number". If it's not the case, you need to regenerate another serial.**
 
 **ℹ️ If you choose the `Macmini8,1` SMBIOS, it's recommanded to change the value in `Misc -> Security -> SecureBootModel` to `j174` in the config.plist**
 
