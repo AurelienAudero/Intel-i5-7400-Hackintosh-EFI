@@ -130,10 +130,11 @@ Pour `Generic -> ROM`, on utilise l'adresse MAC de l'interface réseau, en minus
 
 **⚠️ NOTE : Vous et vous seul êtes responsable de votre Identifiant Apple, lisez attentivement le guide et assumez l'entière responsabilité si vous vous trompez. Dortania, moi et tous les autres guides ne pourront pas être tenus responsables de ce que vous faites.**
 
-### Setup the BIOS
+### Configurer le BIOS
+
 **ℹ️ NOTE : Certaines de ces options peuvent ne pas être présentes dans votre BIOS, il est recommandé de les faire correspondre le plus précisément possible mais ne vous inquiétez pas trop si bon nombre de ces options ne sont pas disponibles dans votre BIOS.**
 
-**⚠️ NOTE : Il est fortement recommandé de changer la langue de votre BIOS en Anglais le temps de configurer le BIOS. Vous pourrez le remettre en Français une fois les modifications effectuées.**$
+**⚠️ NOTE : Il est fortement recommandé de changer la langue de votre BIOS en Anglais le temps de configurer le BIOS. Vous pourrez le remettre en Français une fois les modifications effectuées.**
 
 | ❌ Vous devez désactiver | ✅ Vous devez activer |
 |--------------------------|-----------------------|
