@@ -14,6 +14,7 @@
 - [Installation](#installation)
     - [Make the Installation USB](#make-the-installation-usb) 
     - [Setup the SMBIOS](#setup-the-smbios)
+    - [Setup the BIOS](#setup-the-bios)
 - [Credits](#credits)
 - [Need help ?](#need-help-)
 
@@ -53,7 +54,7 @@
 
 ### Make the Installation USB
 
-Download [balenaEtcher](https://www.balena.io/etcher/) and the [macOS Ventura 13.0 Image](https://www.mediafire.com/file/h4b95ayw359163w/Olarila+Ventura.raw/file) (⚠️ It's recommanded to use an Ad Blocker ⚠️).
+Download [balenaEtcher](https://www.balena.io/etcher/) and the [macOS Ventura 13.2.1 Image](https://www.mediafire.com/file/5abkcfbjcv2q8fy/Olarila+Ventura+13.2.1.raw/file) (⚠️ It's recommanded to use an Ad Blocker ⚠️).
 
 Open balenaEtcher, select the `.raw` image you downloaded earlier, select the USB you want to use and click "Flash".
 
@@ -129,12 +130,34 @@ For `Generic -> ROM`, we use the MAC Address of the network interface, in all lo
 
 **⚠️ NOTE : You and you alone are responsible for your Apple ID, read the guide carefully and take full responsibility if you screw up. Dortania, me and any other guides are not held accountable for what you do.**
 
+### Setup the BIOS
+**ℹ️ NOTE : All of these options may not be present in your BIOS, it is recommended to match as closely as possible but don't be too concerned if many of these options are not available in your BIOS.**
+
+| ❌ You should disable | ✅ You should enable |
+|-----------------------|----------------------|
+| Fast Boot             | VT-x                 |
+| Secure Boot           | Above 4G Decoding    |
+| Serial/COM Port       | Hyper-Threading      |
+| Parallel Port         | Execute Disable Bit  |
+| VT-d                  | EHCI/XHCI Handoff    |
+| CSM                   |                      |
+| Thunderbolt           |                      |
+| Intel SGX             |                      |
+| Intel Platform Trust  |                      |
+| CFG Lock              |                      |
+
+|                🛠️ Settings you should change              |
+|-----------------------------------------------------------|
+| **OS Type :** `Windows 8.1/10 UEFI Mode` (or `Other OS`)  |
+| **DVMT Pre-Allocated (iGPU Memory) :** `128MB` or higher  |
+| **SATA Mode :** `AHCI`                                    |
+
 ## Credits
 
 - Thanks to [Apple](https://apple.com) for [macOS](https://www.apple.com/macos/)
 - Thanks to [Dortania](https://github.com/dortania) for [OpenCore Bootloader](https://dortania.github.io/) and for providing [CtlnaAHCIPort](https://github.com/dortania/OpenCore-Install-Guide/blob/master/extra-files/CtlnaAHCIPort.kext.zip)
 - Thanks to [Acidanthera](https://github.com/acidanthera) for providing [Apple ALC](https://github.com/acidanthera/AppleALC), [CPUFriend](https://github.com/acidanthera/CPUFriend), [CpuTscSync](https://github.com/acidanthera/CpuTscSync), [FeatureUnlock](https://github.com/acidanthera/FeatureUnlock), [IntelMausi](https://github.com/acidanthera/IntelMausi), [Lilu](https://github.com/acidanthera/Lilu), [VirtualSMC](https://github.com/acidanthera/VirtualSMC) and [WhateverGreen](https://github.com/acidanthera/WhateverGreen)
-- Thanks to [Olarila](https://www.olarila.com) for providing the [macOS Ventura 13.0 Image](https://www.mediafire.com/file/h4b95ayw359163w/Olarila+Ventura.raw/file)
+- Thanks to [Olarila](https://www.olarila.com) for providing the [macOS Ventura 13.2.1 Image](https://www.mediafire.com/file/5abkcfbjcv2q8fy/Olarila+Ventura+13.2.1.raw/file)
 - Thanks to [Aurélien Audero](https://github.com/AurelienAudero) for building the [Intel i5-7400 Hackintosh EFI](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI)
 
 ## Need help ?
