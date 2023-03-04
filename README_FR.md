@@ -14,6 +14,7 @@
 - [Installation](#installation)
     - [Créer la clé USB d'installation](#créer-la-clé-usb-dinstallation) 
     - [Configurer le SMBIOS](#configurer-le-smbios)
+    - [Configurer le BIOS](#configurer-le-bios)
 - [Crédits](#crédits)
 - [Besoin d'aide ?](#besoin-daide-)
 
@@ -128,6 +129,30 @@ Pour `Generic -> ROM`, on utilise l'adresse MAC de l'interface réseau, en minus
 **ℹ️ Si vous choissisez `Macmini8,1` comme SMBIOS, il est recommandé de changer la valeur dans `Misc -> Security -> SecureBootModel` à `j174` dans le config.plist**
 
 **⚠️ NOTE : Vous et vous seul êtes responsable de votre Identifiant Apple, lisez attentivement le guide et assumez l'entière responsabilité si vous vous trompez. Dortania, moi et tous les autres guides ne pourront pas être tenus responsables de ce que vous faites.**
+
+### Setup the BIOS
+**ℹ️ NOTE : Certaines de ces options peuvent ne pas être présentes dans votre BIOS, il est recommandé de les faire correspondre le plus précisément possible mais ne vous inquiétez pas trop si bon nombre de ces options ne sont pas disponibles dans votre BIOS.**
+
+**⚠️ NOTE : Il est fortement recommandé de changer la langue de votre BIOS en Anglais le temps de configurer le BIOS. Vous pourrez le remettre en Français une fois les modifications effectuées.**$
+
+| ❌ Vous devez désactiver | ✅ Vous devez activer |
+|--------------------------|-----------------------|
+| Fast Boot                | VT-x                  |
+| Secure Boot              | Above 4G Decoding     |
+| Serial/COM Port          | Hyper-Threading       |
+| Parallel Port            | Execute Disable Bit   |
+| VT-d                     | EHCI/XHCI Handoff     |
+| CSM                      |                       |
+| Thunderbolt              |                       |
+| Intel SGX                |                       |
+| Intel Platform Trust     |                       |
+| CFG Lock                 |                       |
+
+|           🛠️ Paramètres que vous devez changer           |
+|----------------------------------------------------------|
+| **OS Type :** `Windows 8.1/10 UEFI Mode` (ou `Other OS`) |
+| **DVMT Pre-Allocated (iGPU Memory) :** `128MB` ou plus   |
+| **SATA Mode :** `AHCI`                                   |
 
 ## Crédits
 
