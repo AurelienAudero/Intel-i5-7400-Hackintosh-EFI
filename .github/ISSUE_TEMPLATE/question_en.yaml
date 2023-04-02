@@ -35,7 +35,7 @@ body:
           required: true
         - label: I have specified a title related to my problem
           required: true
-        - label: My title starts with `[Question]`
+        - label: My title starts with "[Question]" (without the quotes)
           required: true
   - type: checkboxes
     id: terms
