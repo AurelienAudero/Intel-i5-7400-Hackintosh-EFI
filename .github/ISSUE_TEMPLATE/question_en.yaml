@@ -29,7 +29,7 @@ body:
     id: checklist
     attributes:
       label: I'm checking my form
-      description: Check through this checklist that the form is correct and that it has been completed correctly.
+      description: Check through this checklist that this is the correct form and that it has been completed correctly.
       options:
         - label: My question is not about a bug or issue I have using this EFI (if so, I use the form named "Bug/Issue Report")
           required: true
