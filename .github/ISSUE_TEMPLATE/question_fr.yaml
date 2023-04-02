@@ -35,7 +35,7 @@ body:
           required: true
         - label: J'ai bien spécifié un titre en rapport avec mon problème
           required: true
-        - label: Mon titre commence par `[Question]`
+        - label: Mon titre commence par "[Question]" (sans les guillemets)
           required: true
   - type: checkboxes
     id: terms
