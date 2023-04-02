@@ -1,5 +1,5 @@
 name: Bug Report (French)
-description: Je rencontre un bug et j'ai besoin d'aide pour le résoudre
+description: Je rencontre un bug ou un problème et j'ai besoin d'aide pour le résoudre
 title: "[Bug] Entrer un titre pour cette issue"
 labels: ["bug", "help wanted", "french"]
 assignees:
@@ -16,6 +16,7 @@ body:
       description: Veuillez préciser au moins le CPU, la RAM, le Disque Dur et le GPU que vous utilisez
       value: |
         - CPU :
+        - Carte mère :
         - RAM :
         - Disque Dur :
         - GPU :
@@ -48,6 +49,16 @@ body:
         Liens ? Références ? Tout ce qui nous donnera plus de contexte sur le problème que vous rencontrez
         
         Tip: Vous pouvez joindre des images ou des fichiers log en cliquant sur cette zone pour la mettre en surbrillance, puis en faisant glisser des fichiers à l'intérieur de celle-ci
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Je vérifie mon formulaire
+      description: Vérifiez grâce à cette checklist que le formulaire est correct et qu'il a été rempli correctement.
+      options:
+        - label: J'ai bien spécifié un titre en rapport avec mon problème
+          required: true
+        - label: Mon titre commence par "[Bug]" (sans les guillemets)
+          required: true
   - type: checkboxes
     id: terms
     attributes:
