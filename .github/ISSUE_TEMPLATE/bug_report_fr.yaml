@@ -50,6 +50,16 @@ body:
         
         Tip: Vous pouvez joindre des images ou des fichiers log en cliquant sur cette zone pour la mettre en surbrillance, puis en faisant glisser des fichiers à l'intérieur de celle-ci
   - type: checkboxes
+    id: checklist
+    attributes:
+      label: Je vérifie mon formulaire
+      description: Vérifiez grâce à cette checklist que le formulaire est correct et qu'il a été rempli correctement.
+      options:
+        - label: J'ai bien spécifié un titre en rapport avec mon problème
+          required: true
+        - label: Mon titre commence par "[Bug]" (sans les guillemets)
+          required: true
+  - type: checkboxes
     id: terms
     attributes:
       label: Code de Conduite
