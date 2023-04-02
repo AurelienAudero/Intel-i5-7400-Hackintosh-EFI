@@ -1,5 +1,5 @@
 name: Bug Report (English)
-description: I encounter a bug and I need help to resolve it
+description: I encounter a bug or an issue and I need help to resolve it
 title: "[Bug] Enter a title for this issue"
 labels: ["bug", "help wanted", "english"]
 assignees:
@@ -16,6 +16,7 @@ body:
       description: Please specify at least the CPU, RAM, Hard Disk and GPU you are using
       value: |
         - CPU:
+        - Motherboard :
         - RAM:
         - Hard Disk:
         - GPU:
