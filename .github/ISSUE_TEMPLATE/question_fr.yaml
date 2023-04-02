@@ -28,9 +28,20 @@ body:
   - type: checkboxes
     id: terms
     attributes:
+      label: Je vérifie mon formulaire
+      description: Vérifiez grâce à cette checklist que le formulaire est correct et qu'il a été rempli correctement.
+      options:
+        - label: Ma question ne concerne pas un bug ou un problème que j'ai en utilisant cet EFI (si c'est le cas, j'utilise le formulaire nommé "Bug/Issue Report")
+          required: true
+        - label: J'ai bien spécifié un titre en rapport avec mon problème
+          required: true
+        - label: Mon titre commence par `[Question]`
+          required: true
+  - type: checkboxes
+    id: terms
+    attributes:
       label: Code de Conduite
       description: En soumettant cette question, vous acceptez de suivre notre [Code de Conduite](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/blob/main/CODE_OF_CONDUCT.md)
       options:
         - label: J'accepte de suivre le code de conduite de ce projet
           required: true
-      
