@@ -1,5 +1,5 @@
 name: Bug Report (French)
-description: Je rencontre un bug et j'ai besoin d'aide pour le résoudre
+description: Je rencontre un bug ou un problème et j'ai besoin d'aide pour le résoudre
 title: "[Bug] Entrer un titre pour cette issue"
 labels: ["bug", "help wanted", "french"]
 assignees:
@@ -16,6 +16,7 @@ body:
       description: Veuillez préciser au moins le CPU, la RAM, le Disque Dur et le GPU que vous utilisez
       value: |
         - CPU :
+        - Carte mère :
         - RAM :
         - Disque Dur :
         - GPU :
