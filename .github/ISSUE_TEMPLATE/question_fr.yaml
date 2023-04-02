@@ -26,7 +26,7 @@ body:
         
         Tip: Vous pouvez joindre des images ou des fichiers log en cliquant sur cette zone pour la mettre en surbrillance, puis en faisant glisser des fichiers à l'intérieur de celle-ci
   - type: checkboxes
-    id: terms
+    id: checklist
     attributes:
       label: Je vérifie mon formulaire
       description: Vérifiez grâce à cette checklist que le formulaire est correct et qu'il a été rempli correctement.
