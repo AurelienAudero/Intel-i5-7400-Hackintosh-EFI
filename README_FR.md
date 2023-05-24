@@ -54,7 +54,7 @@
 
 ### Créer la clé USB d'installation
 
-Télécharger [balenaEtcher](https://www.balena.io/etcher/) et [l'image de macOS Ventura 13.0](https://www.mediafire.com/file/h4b95ayw359163w/Olarila+Ventura.raw/file) (⚠️ Il est recommandé d'utiliser un bloqueur de pub ⚠️).
+Télécharger [balenaEtcher](https://www.balena.io/etcher/) et [l'image de macOS Ventura 13.4](https://www.mediafire.com/file/7nwiwc08e1tbsjg/Olarila+Ventura+13.4.raw/file) (⚠️ Il est recommandé d'utiliser un bloqueur de pub ⚠️).
 
 Ouvrez balenaEtcher, sélectionnez l'image `.raw` téléchargée plus tôt, sélectionnez la clé USB que vous souhaitez utiliser et cliquez sur "Flash".
 
@@ -92,7 +92,7 @@ Si vous êtes sur macOS, exécutez "GenSMBIOS.command".
 
 Une fois le programme ouvert, utilisez l'option 1 pour télécharger MacSerial.
 
-Après ça, choissisez l'option 3 pour séléctionner le SMBIOS et entrer "iMac18,1" ou "iMac18,3" (sans les guillemets) en fonction de votre configuration
+Après ça, choissisez l'option 3 pour séléctionner le SMBIOS et entrer `iMac18,1` ou `iMac18,3` ou `Macmini8,1` (sensible à la casse) en fonction de votre configuration
 
 Cela vous donnera une sortie similaire à la suivante :
 
@@ -160,7 +160,7 @@ Pour `Generic -> ROM`, on utilise l'adresse MAC de l'interface réseau, en minus
 - Merci à [Apple](https://apple.com) pour [macOS](https://www.apple.com/macos/)
 - Merci à [Dortania](https://github.com/dortania) pour [OpenCore Bootloader](https://dortania.github.io/) et pour fournir [CtlnaAHCIPort](https://github.com/dortania/OpenCore-Install-Guide/blob/master/extra-files/CtlnaAHCIPort.kext.zip)
 - Merci à [Acidanthera](https://github.com/acidanthera) pour fournir [Apple ALC](https://github.com/acidanthera/AppleALC), [CPUFriend](https://github.com/acidanthera/CPUFriend), [CpuTscSync](https://github.com/acidanthera/CpuTscSync), [FeatureUnlock](https://github.com/acidanthera/FeatureUnlock), [IntelMausi](https://github.com/acidanthera/IntelMausi), [Lilu](https://github.com/acidanthera/Lilu), [VirtualSMC](https://github.com/acidanthera/VirtualSMC) et [WhateverGreen](https://github.com/acidanthera/WhateverGreen)
-- Merci à [Olarila](https://www.olarila.com) pour fournir [l'image de macOS Ventura 13.0](https://www.mediafire.com/file/h4b95ayw359163w/Olarila+Ventura.raw/file)
+- Merci à [Olarila](https://www.olarila.com) pour fournir [l'image de macOS Ventura 13.4](https://www.mediafire.com/file/7nwiwc08e1tbsjg/Olarila+Ventura+13.4.raw/file)
 - Merci à [Aurélien Audero](https://github.com/AurelienAudero) pour la conception de [Intel i5-7400 Hackintosh EFI](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI)
 
 ## Besoin d'aide ?
