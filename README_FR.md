@@ -15,6 +15,7 @@
     - [Créer la clé USB d'installation](#créer-la-clé-usb-dinstallation) 
     - [Configurer le SMBIOS](#configurer-le-smbios)
     - [Configurer le BIOS](#configurer-le-bios)
+    - [Post-installation](#post-installation)
 - [Crédits](#crédits)
 - [Besoin d'aide ?](#besoin-daide-)
 
@@ -40,101 +41,79 @@
 | DVI | Fonctionnel à 1920x1080@60Hz |
 | Ethernet | Fonctionnel à pleine vitesse |
 | iGPU | Fonctionnel |
-| DRM | Partiellement Fonctionnel ([Voir plus d'infos](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/issues/5))
-| Wi-Fi | Fonctionnel à pleine vitesse |
+| DRM | Partiellement fonctionnel ([voir plus d'infos](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/issues/5))
+| Wi-Fi | Non fonctionnel ([voir plus d'infos](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/issues/25)) |
 | Bluetooth | Fonctionnel |
 | USB | Fonctionnel à pleine vitesse (jusqu'à USB 3.1) |
 | Sleep | Peut fonctionner selon votre configuration |
 | iCloud | Fonctionnel |
 | iMessage et FaceTime | Fonctionnel |
-| Handoff et Continuité | Fonctionnel |
+| Handoff et Continuité | Partiellement fonctionnel ([voir plus d'infos](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/issues/25)) |
 | Mac App Store | Fonctionnel |
 
 ## Installation
 
 ### Créer la clé USB d'installation
 
-Télécharger [balenaEtcher](https://www.balena.io/etcher/) et [l'image de macOS Ventura 13.5](https://www.mediafire.com/file/d3xufvgzwhrw4zt/Olarila+Ventura+13.5.raw/file) (⚠️ Il est recommandé d'utiliser un bloqueur de pub ⚠️).
-
-Ouvrez balenaEtcher, sélectionnez l'image `.raw` téléchargée plus tôt, sélectionnez la clé USB que vous souhaitez utiliser et cliquez sur "Flash".
-
-**NOTE : CELA VA EFFACER TOUT LE CONTENUE SUR VOTRE CLÉ USB, VEUILLEZ SAUVERGARDER VOS DONNÉES IMPORTANTES !**
-
-Une fois que le flash s'est terminé avec succès, vous devez monter l'EFI de votre clé USB (chercher sur Google si vous avez besoin d'aide).
-
-Ouvrez l'EFI de votre clé USB et **supprimer tout** (la racine de l'EFI doit être vide).
-
-Maintenant, [télécharger la dernière version de cet EFI](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/releases/latest) et coller-le à la racine de la clé USB, cela doit ressembler à ça :
-
-![EFI-directory-Screenshot](/Images/EFI-directory-Screenshot.png)
+1. Téléchargez [balenaEtcher](https://www.balena.io/etcher/) et [l'image de macOS Sonoma 14.0](https://www.mediafire.com/file/wio1f0s9e8bzyiw/Olarila+Sonoma.raw/file) (⚠️ Il est recommandé d'utiliser un bloqueur de pub ⚠️).
+2. Ouvrez balenaEtcher, sélectionnez l'image `.raw` téléchargée plus tôt, sélectionnez la clé USB que vous souhaitez utiliser et cliquez sur "Flash".
+> **⚠️ CELA VA EFFACER TOUT LE CONTENUE SUR VOTRE CLÉ USB, VEUILLEZ SAUVERGARDER VOS DONNÉES IMPORTANTES !**
+3. Une fois que le flash s'est terminé avec succès, vous devez monter l'EFI de votre clé USB (chercher sur Google si vous avez besoin d'aide).
+4. Ouvrez l'EFI de votre clé USB et **supprimer tout** (la racine de l'EFI doit être vide).
+5. [Téléchargez la dernière version de cet EFI](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/releases/latest) et collez-le à la racine de la clé USB
+> Cela doit ressembler à ça :
+> ![EFI-directory-Screenshot](/Images/EFI-directory-Screenshot.png)
 
 Votre clé USB est prête mais avant de l'utiliser vous devez [Configurer le SMBIOS](#configurer-le-smbios)
 
-**⚠️ Cela ne démarrera pas si vous passez cette partie, veuillez donc suivre les étapes suivantes avec attention**
+> **⚠️ Cela ne démarrera pas si vous passez cette partie, veuillez donc suivre les étapes suivantes avec attention**
 
 ### Configurer le SMBIOS
 
-Pour utiliser cette EFI, vous avez besoin de configurer le SMBIOS en fonction de votre configuration.
+Pour utiliser cette EFI, vous avez besoin de configurer le SMBIOS.
 
-| SMIOS | Matériel |
-| ----- | -------- |
-| iMac18,1 | Utilisé pour les ordinateurs utilisant l'iGPU pour l'affichage |
-| iMac18,3 | Utilisé pour les ordinateurs utilisant une carte graphique dédiée (dGPU) pour l'affichage, et l'iGPU pour les tâches informatiques uniquement |
-| Macmini8,1 | Utilisé pour les ordinateurs ayant des problèmes avec iMac18,1 et qui utilisent l'iGPU pour l'affichage |
+1. Téléchargez [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) et extrayez-le.
+2. Lancez le programme en exécutant `GenSMBIOS.bat` si vous êtes sous Windows ou `GenSMBIOS.command` si vous êtes sous macOS.
+3. Une fois le script en cours d'exécution, choisissez l'option 1 pour télécharger MacSerial.
+4. Choisissez l'option 3 pour sélectionner le SMBIOS et entrez `Macmini8,1` (sensible à la casse).
 
-Télécharger [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS/archive/refs/heads/master.zip) et l'extraire.
+> Cela vous donnera une sortie similaire à la suivante :
+> 
+> ```
+>   #######################################################
+>  #              Macmini8,1 SMBIOS Info                 #
+> #######################################################
+> 
+> Type:         Macmini8,1
+> Serial:       C07LNUYMJYVX
+> Board Serial: C07345500CDKXPGJC
+> SmUUID:       C58DD217-9C50-439D-9D72-E81D99DBB062
+> Apple ROM:    903C92E450A1
+> ```
 
-Si vous êtes sur Windows, exécutez "GenSMBIOS.bat".
+5. Vérifiez le numéro de série généré sur [Apple Check Coverage](https://checkcoverage.apple.com/). Vous devez recevoir ce message : "Nous sommes désolés, mais nous ne pouvons pas consulter la couverture associée à ce numéro de série". Si vous ne l'obtenez pas, vous devez régénérer un autre numéro de série.
+6. En utilisant [ProperTree](https://github.com/corpnewt/ProperTree), modifiez votre fichier `config.plist` en utilisant la sortie donnée par GenSMBIOS :
+    - La partie `Type` doit être copiée dans `Generic -> SystemProductName`.
+    - La partie `Serial` doit être copiée dans `Generic -> SystemSerialNumber`.
+    - La partie `Board Serial` doit être copiée dans `Generic -> MLB`.
+    - La partie `SmUUID` doit être copiée dans `Generic -> SystemUUID`.
+    - N'utilisez pas la partie `Apple ROM` !
+    - Pour `Generic -> ROM`, on utilise l'adresse MAC de l'interface réseau, en minuscules, et sans `:`
 
-Si vous êtes sur macOS, exécutez "GenSMBIOS.command".
+> **ℹ️ Par exemple :**
+> - **MAC :** `00:16:CB:00:11:22`
+> - **ROM :** `0016cb001122`
+>
+> **⚠️ NOTE ET AVERTISSEMENTS :**
+> - Vous avez besoin d'avoir [la dernière version de Python](https://www.python.org/downloads/) installée pour utiliser GenSMBIOS.**
+> - Vous et vous seul êtes responsable de votre Identifiant Apple, lisez attentivement le guide et assumez l'entière responsabilité si vous vous trompez. Dortania, moi et tous les autres guides ne pourront pas être tenus responsables de ce que vous faites.
 
-**NOTE : Vous avez besoin d'avoir [la dernière version de Python](https://www.python.org/downloads/) installée pour utiliser ce programme.**
-
-Une fois le programme ouvert, utilisez l'option 1 pour télécharger MacSerial.
-
-Après ça, choissisez l'option 3 pour séléctionner le SMBIOS et entrer `iMac18,1` ou `iMac18,3` ou `Macmini8,1` (sensible à la casse) en fonction de votre configuration
-
-Cela vous donnera une sortie similaire à la suivante :
-
-```
-  #######################################################
- #               iMac18,1 SMBIOS Info                  #
-#######################################################
-
-Type:         iMac18,1
-Serial:       C02FG0D5H7JY
-Board Serial: C02112270CDH69FAD
-SmUUID:       75609BAC-B4BF-4DC0-8D98-E09177474DB8
-Apple ROM:    90B21FCE4687
-```
-
-La partie `Type` doit être copiée dans `Generic -> SystemProductName`.
-
-La partie `Serial` doit être copiée dans `Generic -> SystemSerialNumber`.
-
-La partie `Board Serial` doit être copiée dans `Generic -> MLB`.
-
-La partie `SmUUID` doit être copiée dans `Generic -> SystemUUID`.
-
-N'utilisez pas la partie `Apple ROM` !
-
-Pour `Generic -> ROM`, on utilise l'adresse MAC de l'interface réseau, en minuscules, et sans `:`
-
-**Par exemple :**
-- **MAC :** `00:16:CB:00:11:22`
-- **ROM :** `0016cb001122`
-
-**ℹ️ Rappelez vous de regarder sur [Apple Check Coverage](https://checkcoverage.apple.com/) and vous devez avoir ce message : "Nous sommes désolés, mais nous ne pouvons pas consulter la couverture associée à ce numéro de série". Si cela n'est pas le cas, vous devez regénérer d'autres numéros.**
-
-**ℹ️ Si vous choissisez `Macmini8,1` comme SMBIOS, il est recommandé de changer la valeur dans `Misc -> Security -> SecureBootModel` à `j174` dans le config.plist**
-
-**⚠️ NOTE : Vous et vous seul êtes responsable de votre Identifiant Apple, lisez attentivement le guide et assumez l'entière responsabilité si vous vous trompez. Dortania, moi et tous les autres guides ne pourront pas être tenus responsables de ce que vous faites.**
 
 ### Configurer le BIOS
 
-**ℹ️ NOTE : Certaines de ces options peuvent ne pas être présentes dans votre BIOS, il est recommandé de les faire correspondre le plus précisément possible mais ne vous inquiétez pas trop si bon nombre de ces options ne sont pas disponibles dans votre BIOS.**
-
-**⚠️ NOTE : Il est fortement recommandé de changer la langue de votre BIOS en Anglais le temps de configurer le BIOS. Vous pourrez le remettre en Français une fois les modifications effectuées.**
+>**ℹ️ NOTE :**
+> - Certaines de ces options peuvent ne pas être présentes dans votre BIOS, il est recommandé de les faire correspondre le plus précisément possible mais ne vous inquiétez pas trop si bon nombre de ces options ne sont pas disponibles dans votre BIOS.
+> - Il est recommandé de changer la langue de votre BIOS en Anglais lors de sa configuration. Vous pouvez le remettre dans votre langue préférée une fois les modifications effectuées.
 
 | ❌ Vous devez désactiver | ✅ Vous devez activer |
 |--------------------------|-----------------------|
@@ -154,6 +133,14 @@ Pour `Generic -> ROM`, on utilise l'adresse MAC de l'interface réseau, en minus
 | **OS Type :** `Windows 8.1/10 UEFI Mode` (ou `Other OS`) |
 | **DVMT Pre-Allocated (iGPU Memory) :** `128MB` ou plus   |
 | **SATA Mode :** `AHCI`                                   |
+
+### Post-Installation
+1. Montez l'EFI du disque dur sur lequel macOS est installé.
+2. Montez l'EFI de la clé USB que vous avez utilisé pour installer macOS.
+3. Copiez tout le contenu de la partition EFI de la clé USB vers l'EFI du disque dur sur lequel macOS est installé.
+> Cela doit ressembler à ça :
+> ![EFI-directory-Screenshot](/Images/EFI-directory-Screenshot.png)
+4. Vous pouvez maintenant démarrer directement à partir de votre disque dur.
 
 ## Crédits
 
