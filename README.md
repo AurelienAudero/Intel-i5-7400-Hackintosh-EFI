@@ -10,7 +10,7 @@
 ## Contents
 
 - [Configuration](#configuration)
-- [What work ?](#what-work-)
+- [What works ?](#what-works-)
 - [Installation](#installation)
     - [Make the Installation USB](#make-the-installation-usb) 
     - [Setup the SMBIOS](#setup-the-smbios)
@@ -33,7 +33,7 @@
 | Monitor 2 | iiyama ProLite XB2483HSU |
 | CD/DVD | LG GH24NSD DVD-RW |
 
-## What work ?
+## What works ?
 
 | Service | State |
 | ------- | ----- |
