@@ -104,11 +104,14 @@ To use this EFI, you will need to setup the SMIOS.
 > - **MAC :** `00:16:CB:00:11:22`
 > - **ROM :** `0016cb001122`
 >
->**⚠️ WARNING :**
->- **You and you alone are responsible for your Apple ID, read the guide carefully and take full responsibility if you screw up. Dortania, me and any other guides are not held accountable for what you do.**
+>**⚠️ NOTE AND WARNINGS :**
+> - You need to have the [latest version of Python](https://www.python.org/downloads/) installed to run GenSMBIOS.
+> - You and you alone are responsible for your Apple ID, read the guide carefully and take full responsibility if you screw up. Dortania, me and any other guides are not held accountable for what you do.
 
 ### Setup the BIOS
->**ℹ️ NOTE : All of these options may not be present in your BIOS, it is recommended to match as closely as possible but don't be too concerned if many of these options are not available in your BIOS.**
+>**ℹ️ NOTE :**
+> - All of these options may not be present in your BIOS, it is recommended to match as closely as possible but don't be too concerned if many of these options are not available in your BIOS.
+> - It is recommended to change the language of your BIOS to English while configuring it. You can put it back in your preferred language once the changes have been made.
 
 | ❌ You should disable | ✅ You should enable |
 |-----------------------|----------------------|
