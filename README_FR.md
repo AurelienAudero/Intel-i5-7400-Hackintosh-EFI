@@ -147,7 +147,7 @@ Pour utiliser cette EFI, vous avez besoin de configurer le SMBIOS.
 - Merci à [Apple](https://apple.com) pour [macOS](https://www.apple.com/macos/)
 - Merci à [Dortania](https://github.com/dortania) pour [OpenCore Bootloader](https://dortania.github.io/) et pour fournir [CtlnaAHCIPort](https://github.com/dortania/OpenCore-Install-Guide/blob/master/extra-files/CtlnaAHCIPort.kext.zip)
 - Merci à [Acidanthera](https://github.com/acidanthera) pour fournir [Apple ALC](https://github.com/acidanthera/AppleALC), [CPUFriend](https://github.com/acidanthera/CPUFriend), [CpuTscSync](https://github.com/acidanthera/CpuTscSync), [FeatureUnlock](https://github.com/acidanthera/FeatureUnlock), [IntelMausi](https://github.com/acidanthera/IntelMausi), [Lilu](https://github.com/acidanthera/Lilu), [VirtualSMC](https://github.com/acidanthera/VirtualSMC) et [WhateverGreen](https://github.com/acidanthera/WhateverGreen)
-- Merci à [Olarila](https://www.olarila.com) pour fournir [l'image de macOS Ventura 13.5](https://www.mediafire.com/file/d3xufvgzwhrw4zt/Olarila+Ventura+13.5.raw/file)
+- Merci à [Olarila](https://www.olarila.com) pour fournir [l'image de macOS Sonoma 14.0](https://www.mediafire.com/file/wio1f0s9e8bzyiw/Olarila+Sonoma.raw/file)
 - Merci à [Aurélien Audero](https://github.com/AurelienAudero) pour la conception de [Intel i5-7400 Hackintosh EFI](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI)
 
 ## Besoin d'aide ?
