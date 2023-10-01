@@ -42,13 +42,13 @@
 | Ethernet | Fonctionnel à pleine vitesse |
 | iGPU | Fonctionnel |
 | DRM | Partiellement fonctionnel ([voir plus d'infos](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/issues/5))
-| Wi-Fi | Non fonctionnel ([voir plus d'infos](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/issues/25)) |
+| Wi-Fi | Fonctionnel ([nécéssite un patch - voir plus d'infos](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/issues/25)) |
 | Bluetooth | Fonctionnel |
 | USB | Fonctionnel à pleine vitesse (jusqu'à USB 3.1) |
 | Sleep | Peut fonctionner selon votre configuration |
 | iCloud | Fonctionnel |
 | iMessage et FaceTime | Fonctionnel |
-| Handoff et Continuité | Partiellement fonctionnel ([voir plus d'infos](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/issues/25)) |
+| Handoff et Continuité | Fonctionnel ([nécéssite un patch - voir plus d'infos](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/issues/25)) |
 | Mac App Store | Fonctionnel |
 
 ## Installation
