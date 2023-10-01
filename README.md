@@ -42,13 +42,13 @@
 | Ethernet | Working at full speed |
 | iGPU | Working |
 | DRM | Working partially ([see more info](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/issues/5)) |
-| Wi-Fi | Not working ([see more info](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/issues/24)) |
+| Wi-Fi | Working ([requires patching - see more info](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/issues/24)) |
 | Bluetooth | Working |
 | USB | Working at full speed (up to USB 3.1) |
 | Sleep | May work depending of your configuration |
 | iCloud | Working |
 | iMessage and FaceTime | Working |
-| Handoff and Continuity | Working partially ([see more info](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/issues/24)) |
+| Handoff and Continuity | Working ([requires patching - see more info](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/issues/24)) |
 | Mac App Store | Working |
 
 ## Installation
