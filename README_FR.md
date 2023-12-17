@@ -26,7 +26,8 @@
 | Processeur | Intel Core i5-7400 |
 | Mémoire RAM | 16GB DDR4 2400MHz |
 | Carte Mère | MSI B250 Gaming Pro Carbon |
-| Disque Dur | Kingston SSD SATA 120GB |
+| Disque Dur macOS | Crucial BX500 480GB (SSD SATA) |
+| Autres Disques Durs | <ul><li>Crucial P5 Plus 1To (NVMe PCIe Gen 4)</li><li>Kingston A400 120GB (SSD SATA)</li><li>Western Digital Blue 1To 3.5" 7200RPM (HDD SATA) |
 | Graphiques Intégrés | Intel HD Graphics 630 |
 | Carte Wi-Fi et Bluetooth | Broadcom BCM94360plus |
 | Moniteur 1 | Acer Nitro XV240Y 165Hz 1ms |
