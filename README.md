@@ -56,7 +56,7 @@
 
 ### Make the Installation USB
 
-1. Download [balenaEtcher](https://www.balena.io/etcher/) and the [macOS Sonoma 14.0 Image](https://www.mediafire.com/file/wio1f0s9e8bzyiw/Olarila+Sonoma.raw/file) (⚠️ It's recommanded to use an Ad Blocker ⚠️).
+1. Download [balenaEtcher](https://www.balena.io/etcher/) and the [macOS Sonoma 14.3.1 Image](https://www.mediafire.com/file/ir55u3ldpk7hqbf/Olarila+Sonoma+14.3.1.raw/file) (⚠️ It's recommanded to use an Ad Blocker ⚠️).
 2. Open balenaEtcher, select the `.raw` image you downloaded earlier, select the USB you want to use and click "Flash".
 > **⚠️ THIS WILL ERASE ALL THE DATA PRESENT ON YOUR USB, PLEASE BACKUP IMPORTANTS FILES !**
 3. Once the flash is successfully completed, you will need to mount the EFI of your USB (search on Google if you need help).
