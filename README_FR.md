@@ -56,7 +56,7 @@
 
 ### Créer la clé USB d'installation
 
-1. Téléchargez [balenaEtcher](https://www.balena.io/etcher/) et [l'image de macOS Sonoma 14.0](https://www.mediafire.com/file/wio1f0s9e8bzyiw/Olarila+Sonoma.raw/file) (⚠️ Il est recommandé d'utiliser un bloqueur de pub ⚠️).
+1. Téléchargez [balenaEtcher](https://www.balena.io/etcher/) et [l'image de macOS Sonoma 14.3.1](https://www.mediafire.com/file/ir55u3ldpk7hqbf/Olarila+Sonoma+14.3.1.raw/file) (⚠️ Il est recommandé d'utiliser un bloqueur de pub ⚠️).
 2. Ouvrez balenaEtcher, sélectionnez l'image `.raw` téléchargée plus tôt, sélectionnez la clé USB que vous souhaitez utiliser et cliquez sur "Flash".
 > **⚠️ CELA VA EFFACER TOUT LE CONTENUE SUR VOTRE CLÉ USB, VEUILLEZ SAUVERGARDER VOS DONNÉES IMPORTANTES !**
 3. Une fois que le flash s'est terminé avec succès, vous devez monter l'EFI de votre clé USB (chercher sur Google si vous avez besoin d'aide).
