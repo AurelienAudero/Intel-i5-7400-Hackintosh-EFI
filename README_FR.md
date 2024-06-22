@@ -56,7 +56,7 @@
 
 ### Créer la clé USB d'installation
 
-1. Téléchargez [balenaEtcher](https://www.balena.io/etcher/) et [l'image de macOS Sonoma 14.3.1](https://www.mediafire.com/file/ir55u3ldpk7hqbf/Olarila+Sonoma+14.3.1.raw/file) (⚠️ Il est recommandé d'utiliser un bloqueur de pub ⚠️).
+1. Téléchargez [balenaEtcher](https://www.balena.io/etcher/) et [l'image de macOS Sonoma 14.5](https://www.mediafire.com/file/2o9jgshqegyf18c/Olarila+Sonoma+14.5.raw/file) (⚠️ Il est recommandé d'utiliser un bloqueur de pub ⚠️).
 2. Ouvrez balenaEtcher, sélectionnez l'image `.raw` téléchargée plus tôt, sélectionnez la clé USB que vous souhaitez utiliser et cliquez sur "Flash".
 > **⚠️ CELA VA EFFACER TOUT LE CONTENUE SUR VOTRE CLÉ USB, VEUILLEZ SAUVERGARDER VOS DONNÉES IMPORTANTES !**
 3. Une fois que le flash s'est terminé avec succès, vous devez monter l'EFI de votre clé USB (chercher sur Google si vous avez besoin d'aide).
@@ -148,7 +148,7 @@ Pour utiliser cette EFI, vous avez besoin de configurer le SMBIOS.
 - Merci à [Apple](https://apple.com) pour [macOS](https://www.apple.com/macos/)
 - Merci à [Acidanthera](https://github.com/acidanthera) de fournir [Apple ALC](https://github.com/acidanthera/AppleALC), [CPUFriend](https://github.com/acidanthera/CPUFriend), [CpuTscSync](https://github.com/acidanthera/CpuTscSync), [FeatureUnlock](https://github.com/acidanthera/FeatureUnlock), [IntelMausi](https://github.com/acidanthera/IntelMausi), [Lilu](https://github.com/acidanthera/Lilu), [NVMeFix](https://github.com/acidanthera/NVMeFix), [OpenCore Bootloader](https://github.com/acidanthera/OpenCorePkg), [VirtualSMC](https://github.com/acidanthera/VirtualSMC) et [WhateverGreen](https://github.com/acidanthera/WhateverGreen)
 - Merci à [Dortania](https://github.com/dortania) de fournir [AMFIPass](https://github.com/dortania/OpenCore-Legacy-Patcher/blob/main/payloads/Kexts/Acidanthera/AMFIPass-v1.4.0-RELEASE.zip), [CtlnaAHCIPort](https://github.com/dortania/OpenCore-Install-Guide/blob/master/extra-files/CtlnaAHCIPort.kext.zip), [IO80211FamilyLegacy](https://github.com/dortania/OpenCore-Legacy-Patcher/blob/main/payloads/Kexts/Wifi/IO80211FamilyLegacy-v1.0.0.zip), [IOSkywalkFamily](https://github.com/dortania/OpenCore-Legacy-Patcher/blob/main/payloads/Kexts/Wifi/IOSkywalkFamily-v1.1.0.zip) and [OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher)
-- Merci à [Olarila](https://www.olarila.com) de fournir [l'image de macOS Sonoma 14.0](https://www.mediafire.com/file/wio1f0s9e8bzyiw/Olarila+Sonoma.raw/file)
+- Merci à [Olarila](https://www.olarila.com) de fournir [l'image de macOS Sonoma 14.5](https://www.mediafire.com/file/2o9jgshqegyf18c/Olarila+Sonoma+14.5.raw/file)
 - Merci à [Aurélien Audero](https://github.com/AurelienAudero) pour la conception de [Intel i5-7400 Hackintosh EFI](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI)
 
 ## Besoin d'aide ?
