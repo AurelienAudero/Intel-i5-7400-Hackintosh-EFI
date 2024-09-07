@@ -56,18 +56,20 @@
 
 ### Make the Installation USB
 
+> [!CAUTION]
+> THIS WILL ERASE ALL THE DATA PRESENT ON YOUR USB, PLEASE BACKUP IMPORTANTS FILES !
 1. Download [balenaEtcher](https://www.balena.io/etcher/) and the [macOS Sonoma 14.6.1 Image](https://www.mediafire.com/file/4o9q0cey1bw93of/Olarila+Sonoma+14.6.1.raw/file) (⚠️ It's recommanded to use an Ad Blocker ⚠️).
 2. Open balenaEtcher, select the `.raw` image you downloaded earlier, select the USB you want to use and click "Flash".
-> **⚠️ THIS WILL ERASE ALL THE DATA PRESENT ON YOUR USB, PLEASE BACKUP IMPORTANTS FILES !**
 3. Once the flash is successfully completed, you will need to mount the EFI of your USB (search on Google if you need help).
 4. Open the EFI of your USB and **delete everything** (the root of the EFI should be blank).
 5. [Download the latest version of this EFI](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/releases/latest) and paste the "EFI" folder at the root of the USB
-> It should look like this :
+> [!TIP]
+> The file structure of your EFI partition should look like this :
 > ![EFI-directory-Screenshot](/Images/EFI-directory-Screenshot.png)
 
-Finally, your USB is ready but before using it you will have to [Setup the SMBIOS](#setup-the-smbios)
-
->**⚠️ It will not boot if you skip this part, so make sure to follow the following steps carefully**
+> [!IMPORTANT]
+> Your USB is ready but you still have to [Setup the SMBIOS](#setup-the-smbios)  
+> It will not boot if you skip this part, so make sure to follow the following steps carefully
 
 ### Setup the SMBIOS
 
@@ -101,16 +103,17 @@ To use this EFI, you will need to setup the SMIOS.
     - Don't use the `Apple ROM` part !
     - For `Generic -> ROM`, we use the MAC Address of the network interface, in all lowercase, and without `:`
 
-> **ℹ️ For example :**
+> [!TIP]
+> For example :
 > - **MAC :** `00:16:CB:00:11:22`
 > - **ROM :** `0016cb001122`
->
->**⚠️ NOTE AND WARNINGS :**
+
+> [!WARNING]
 > - You need to have the [latest version of Python](https://www.python.org/downloads/) installed to run GenSMBIOS.
 > - You and you alone are responsible for your Apple ID, read the guide carefully and take full responsibility if you screw up. Dortania, me and any other guides are not held accountable for what you do.
 
 ### Setup the BIOS
->**ℹ️ NOTE :**
+> [!NOTE]
 > - All of these options may not be present in your BIOS, it is recommended to match as closely as possible but don't be too concerned if many of these options are not available in your BIOS.
 > - It is recommended to change the language of your BIOS to English while configuring it. You can put it back in your preferred language once the changes have been made.
 
@@ -137,9 +140,11 @@ To use this EFI, you will need to setup the SMIOS.
 1. Mount the EFI of the hard disk on which macOS is installed.
 2. Mount the EFI of the USB you used to install macOS.
 3. Copy all the contents of the EFI partition from the USB to the EFI of the hard disk where macOS is installed.
-> It should look like this :
-> ![EFI-directory-Screenshot](/Images/EFI-directory-Screenshot.png)
 4. You can now boot directly from your Hard Drive.
+> [!TIP]
+> The file structure of your EFI partition should look like this :
+> ![EFI-directory-Screenshot](/Images/EFI-directory-Screenshot.png)
+
 
 ## Credits
 
