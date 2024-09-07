@@ -56,18 +56,22 @@
 
 ### Créer la clé USB d'installation
 
+> [!CAUTION]
+> CELA EFFACERA TOUTES LES DONNÉES PRÉSENTES SUR VOTRE CLÉ USB, VEUILLEZ SAUVEGARDER VOS DONNÉES IMPORTANTES !
+
 1. Téléchargez [balenaEtcher](https://www.balena.io/etcher/) et [l'image de macOS Sonoma 14.6.1](https://www.mediafire.com/file/4o9q0cey1bw93of/Olarila+Sonoma+14.6.1.raw/file) (⚠️ Il est recommandé d'utiliser un bloqueur de pub ⚠️).
 2. Ouvrez balenaEtcher, sélectionnez l'image `.raw` téléchargée plus tôt, sélectionnez la clé USB que vous souhaitez utiliser et cliquez sur "Flash".
-> **⚠️ CELA VA EFFACER TOUT LE CONTENUE SUR VOTRE CLÉ USB, VEUILLEZ SAUVERGARDER VOS DONNÉES IMPORTANTES !**
 3. Une fois que le flash s'est terminé avec succès, vous devez monter l'EFI de votre clé USB (chercher sur Google si vous avez besoin d'aide).
 4. Ouvrez l'EFI de votre clé USB et **supprimer tout** (la racine de l'EFI doit être vide).
 5. [Téléchargez la dernière version de cet EFI](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/releases/latest) et collez-le à la racine de la clé USB
-> Cela doit ressembler à ça :
+
+> [!TIP]
+> La structure de fichier de votre partition EFI doit ressembler à ceci :
 > ![EFI-directory-Screenshot](/Images/EFI-directory-Screenshot.png)
 
-Votre clé USB est prête mais avant de l'utiliser vous devez [Configurer le SMBIOS](#configurer-le-smbios)
-
-> **⚠️ Cela ne démarrera pas si vous passez cette partie, veuillez donc suivre les étapes suivantes avec attention**
+> [!IMPORTANT]
+> Votre clé USB est prête mais vous devez encore [Configurer le SMBIOS](#configurer-le-smbios)  
+> Cela ne démarrera pas si vous passez cette partie, veuillez donc suivre les étapes suivantes avec attention
 
 ### Configurer le SMBIOS
 
@@ -101,18 +105,19 @@ Pour utiliser cette EFI, vous avez besoin de configurer le SMBIOS.
     - N'utilisez pas la partie `Apple ROM` !
     - Pour `Generic -> ROM`, on utilise l'adresse MAC de l'interface réseau, en minuscules, et sans `:`
 
-> **ℹ️ Par exemple :**
+> [!TIP]
+> Par exemple :
 > - **MAC :** `00:16:CB:00:11:22`
 > - **ROM :** `0016cb001122`
->
-> **⚠️ NOTE ET AVERTISSEMENTS :**
-> - Vous avez besoin d'avoir [la dernière version de Python](https://www.python.org/downloads/) installée pour utiliser GenSMBIOS.**
+
+> [!WARNING]
+> - Vous avez besoin d'avoir [la dernière version de Python](https://www.python.org/downloads/) installée pour utiliser GenSMBIOS.
 > - Vous et vous seul êtes responsable de votre Identifiant Apple, lisez attentivement le guide et assumez l'entière responsabilité si vous vous trompez. Dortania, moi et tous les autres guides ne pourront pas être tenus responsables de ce que vous faites.
 
 
 ### Configurer le BIOS
 
->**ℹ️ NOTE :**
+> [!NOTE]
 > - Certaines de ces options peuvent ne pas être présentes dans votre BIOS, il est recommandé de les faire correspondre le plus précisément possible mais ne vous inquiétez pas trop si bon nombre de ces options ne sont pas disponibles dans votre BIOS.
 > - Il est recommandé de changer la langue de votre BIOS en Anglais lors de sa configuration. Vous pouvez le remettre dans votre langue préférée une fois les modifications effectuées.
 
@@ -139,9 +144,11 @@ Pour utiliser cette EFI, vous avez besoin de configurer le SMBIOS.
 1. Montez l'EFI du disque dur sur lequel macOS est installé.
 2. Montez l'EFI de la clé USB que vous avez utilisé pour installer macOS.
 3. Copiez tout le contenu de la partition EFI de la clé USB vers l'EFI du disque dur sur lequel macOS est installé.
-> Cela doit ressembler à ça :
-> ![EFI-directory-Screenshot](/Images/EFI-directory-Screenshot.png)
 4. Vous pouvez maintenant démarrer directement à partir de votre disque dur.
+> [!TIP]
+> La structure de fichier de votre partition EFI doit ressembler à ceci :
+> ![EFI-directory-Screenshot](/Images/EFI-directory-Screenshot.png)
+
 
 ## Crédits
 
