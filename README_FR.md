@@ -7,6 +7,15 @@
 
 [English](README.md) | **Français**
 
+> [!CAUTION]
+> Ce projet n'est plus maintenu depuis le 8 septembre 2024 !  
+> Vous pouvez continuer à utiliser [Intel-i5-7400-Hackintosh-EFI](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI) mais il ne recevra plus de mises à jour.  
+>
+> - Cet EFI peut ne pas fonctionner avec les versions de macOS plus récentes que 14.6.1 Sonoma
+> - Le support officiel n'est plus offert
+> - Vous pouvez apprendre à mettre à jour votre EFI vous-même [ici](https://dortania.github.io/OpenCore-Post-Install/universal/update.html)
+> - Vous êtes autorisé à faire un fork de ce repository GitHub tant que vous [donner une attribution appropriée](#comment-donner-une-attribution-appropriée-) et que vous suivez les termes de la licence [BSD-2-Clause license](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/blob/master/LICENSE)
+
 ## Sommaire
 
 - [Configuration](#configuration)
