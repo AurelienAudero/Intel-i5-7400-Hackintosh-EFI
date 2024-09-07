@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: The support for this project has ended
+    url: https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/blob/master/README.md
+    about: Since September 8, 2024, updates and support are no longer available
   - name: Documentation of this EFI
     url: https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/blob/master/README.md
     about: Check if you didn't miss a step during the setup
