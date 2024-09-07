@@ -7,6 +7,15 @@
 
 [English](README.md) | **Français**
 
+> [!CAUTION]
+> Ce projet n'est plus maintenu depuis le 8 septembre 2024 !  
+> Vous pouvez continuer à utiliser [Intel-i5-7400-Hackintosh-EFI](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI) mais il ne recevra plus de mises à jour.  
+>
+> - Cet EFI peut ne pas fonctionner avec les versions de macOS plus récentes que 14.6.1 Sonoma
+> - Le support officiel n'est plus offert
+> - Vous pouvez apprendre à mettre à jour votre EFI vous-même [ici](https://dortania.github.io/OpenCore-Post-Install/universal/update.html)
+> - Vous êtes autorisé à faire un fork de ce repository GitHub tant que vous [donner une attribution appropriée](#comment-donner-une-attribution-appropriée-) et que vous suivez les termes de la licence [BSD-2-Clause license](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/blob/master/LICENSE)
+
 ## Sommaire
 
 - [Configuration](#configuration)
@@ -16,6 +25,7 @@
     - [Configurer le SMBIOS](#configurer-le-smbios)
     - [Configurer le BIOS](#configurer-le-bios)
     - [Post-installation](#post-installation)
+- [Comment donner une attribution appropriée ?](#comment-donner-une-attribution-appropriée-)
 - [Crédits](#crédits)
 - [Besoin d'aide ?](#besoin-daide-)
 
@@ -149,6 +159,21 @@ Pour utiliser cette EFI, vous avez besoin de configurer le SMBIOS.
 > La structure de fichier de votre partition EFI doit ressembler à ceci :
 > ![EFI-directory-Screenshot](/Images/EFI-directory-Screenshot.png)
 
+## Comment donner une attribution appropriée ?
+
+> [!IMPORTANT]
+> Si vous voulez redistribuer ce projet, vous devez donner une attribution appropriée avant de le partager.  
+> Suivez les points suivants afin de donner une attribution appropriée.
+
+- Votre fork de ce repository GitHub doit contenir un fichier README.md.
+- L'un des fichiers README.md disponibles dans votre repository doit être en Anglais.
+- Le texte suivant doit être inclus en haut de tous les fichiers README.md : `Based on the [Intel-i5-7400-Hackintosh-EFI GitHub repository by AurelienAudero](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI)`
+- Vous devez inclure cette section ["Comment donner une attribution appropriée ?"](#comment-donner-une-attribution-appropriée-) et la section ["Crédits"](#crédits) ci-dessous dans tous les fichiers README.md.
+
+> [!CAUTION]
+> Si vous souhaitez redistribuer ce projet, vous devez suivre les termes de la licence [BSD-2-Clause license](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/blob/master/LICENSE).  
+> Suivre les points ci-dessus ne vous dispense pas de suivre les conditions de la licence.  
+> Si vous ne respectez pas ces conditions, des actions légales seront prises.
 
 ## Crédits
 
