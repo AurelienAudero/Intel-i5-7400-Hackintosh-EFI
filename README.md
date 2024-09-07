@@ -7,6 +7,15 @@
 
 **English** | [Français](README_FR.md)
 
+> [!CAUTION]
+> This project is no longer maintained as of September 8, 2024 !  
+> You may continue using [Intel-i5-7400-Hackintosh-EFI](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI) but it will no longer receive updates.  
+>
+> - This EFI may not work with macOS versions newer than 14.6.1 Sonoma
+> - Official support will no longer be offered
+> - You can learn how to update your EFI yourself [here](https://dortania.github.io/OpenCore-Post-Install/universal/update.html)
+> - You are allowed to fork this GitHub repository as long as you [give proper attribution](#how-to-give-proper-attribution-) and follow the [BSD-2-Clause license](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/blob/master/LICENSE) terms
+
 ## Contents
 
 - [Configuration](#configuration)
@@ -16,6 +25,7 @@
     - [Setup the SMBIOS](#setup-the-smbios)
     - [Setup the BIOS](#setup-the-bios)
     - [Post-install](#post-install)
+- [How to give proper attribution ?](#how-to-give-proper-attribution-)
 - [Credits](#credits)
 - [Need help ?](#need-help-)
 
@@ -145,6 +155,21 @@ To use this EFI, you will need to setup the SMIOS.
 > The file structure of your EFI partition should look like this :
 > ![EFI-directory-Screenshot](/Images/EFI-directory-Screenshot.png)
 
+## How to give proper attribution ?
+
+> [!IMPORTANT]
+> If you want to redistribute this project, you must give proper attribution before sharing.  
+> Follow the following points in order to give proper attribution.
+
+- Your forked GitHub repository must contain a README.md file.
+- One of the README.md files available in your repository must be in English.
+- The following text must be included at the top of all README.md files : `Based on the [Intel-i5-7400-Hackintosh-EFI GitHub repository by AurelienAudero](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI)`
+- You must include this ["How to give proper attribution ?"](#how-to-give-proper-attribution-) section and the following ["Credits"](#credits) section to all README.md files.
+
+> [!CAUTION]
+> If you want to redistribute this project, you must follow the [BSD-2-Clause license](https://github.com/AurelienAudero/Intel-i5-7400-Hackintosh-EFI/blob/master/LICENSE) terms.  
+> Following the above points does not exempt you from following the terms of the license.  
+> If you don't follow these terms, legal actions will be taken.
 
 ## Credits
 
